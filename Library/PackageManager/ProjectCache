@@ -1,31 +1,878 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/velden.bergonia/Documents/VB-VRITM/Packages/manifest.json
+    m_FilePath: C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637558534592479299
-    m_Hash: 3539799373
+      ticks: 637570629963388857
+    m_Hash: 922795612
   m_LockFileStatus:
-    m_FilePath: C:/Users/velden.bergonia/Documents/VB-VRITM/Packages/packages-lock.json
+    m_FilePath: C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637559372763092746
-    m_Hash: 4078740823
+      ticks: 637570629963530951
+    m_Hash: 1673122298
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
+    - packageId: com.microsoft.mixedreality.input@file:C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.input-0.9.2006.tgz
+      testable: 0
+      isDirectDependency: 1
+      version: 0.9.2006
+      source: 6
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1621465973804
+      assetPath: Packages/com.microsoft.mixedreality.input
+      name: com.microsoft.mixedreality.input
+      displayName: Mixed Reality Input
+      author:
+        name: Microsoft
+        email: 
+        url: http://aka.ms/MR-Input
+      category: 
+      type: 
+      description: Provides access to additional inputs from Windows Mixed Reality
+        controllers.
+      status: 4
+      errors: []
+      versions:
+        all: []
+        compatible: []
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - microsoft
+      - mixed
+      - reality
+      - motioncontroller
+      - controller
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.microsoft.mixedreality.openxr@file:C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.openxr-0.1.4.tgz
+      testable: 0
+      isDirectDependency: 1
+      version: 0.1.4
+      source: 6
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.openxr@d7fc59c74897-1621465973847
+      assetPath: Packages/com.microsoft.mixedreality.openxr
+      name: com.microsoft.mixedreality.openxr
+      displayName: Mixed Reality OpenXR Plugin
+      author:
+        name: Microsoft
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Extension to Unity OpenXR Plugin to support a suite of features
+        for HoloLens 2 and Windows Mixed Reality headsets.
+      status: 4
+      errors: []
+      versions:
+        all: []
+        compatible: []
+        verified: 
+      dependencies:
+      - name: com.unity.xr.openxr
+        version: 1.0.2
+      - name: com.unity.xr.arsubsystems
+        version: 4.1.5
+      resolvedDependencies:
+      - name: com.unity.xr.openxr
+        version: 1.0.2
+      - name: com.unity.xr.management
+        version: 4.0.1
+      - name: com.unity.modules.subsystems
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.vr
+        version: 1.0.0
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      - name: com.unity.modules.xr
+        version: 1.0.0
+      - name: com.unity.xr.legacyinputhelpers
+        version: 2.1.7
+      - name: com.unity.subsystemregistration
+        version: 1.1.0
+      - name: com.unity.inputsystem
+        version: 1.0.2
+      - name: com.unity.xr.arsubsystems
+        version: 4.1.7
+      keywords:
+      - microsoft
+      - mixed
+      - reality
+      - openxr
+      - hololens
+      - xreditorsubsystem
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.microsoft.mixedreality.toolkit.examples@file:C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.6.0.tgz
+      testable: 0
+      isDirectDependency: 1
+      version: 2.6.0
+      source: 6
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.toolkit.examples@bb871822e56c-1621465974114
+      assetPath: Packages/com.microsoft.mixedreality.toolkit.examples
+      name: com.microsoft.mixedreality.toolkit.examples
+      displayName: Mixed Reality Toolkit Examples
+      author:
+        name: Microsoft
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Example scenes and assets for the Microsoft Mixed Reality Toolkit.
+      status: 4
+      errors: []
+      versions:
+        all: []
+        compatible: []
+        verified: 
+      dependencies:
+      - name: com.microsoft.mixedreality.toolkit.foundation
+        version: 2.6.0
+      - name: com.microsoft.mixedreality.toolkit.extensions
+        version: 2.6.0
+      resolvedDependencies:
+      - name: com.microsoft.mixedreality.toolkit.foundation
+        version: 2.6.0
+      - name: com.microsoft.mixedreality.toolkit.standardassets
+        version: 2.6.0
+      - name: com.unity.textmeshpro
+        version: 3.0.1
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.microsoft.mixedreality.toolkit.extensions
+        version: 2.6.0
+      keywords:
+      - mrtk
+      - microsoft
+      - mixed
+      - reality
+      - augmented
+      - virtual
+      - xr
+      - hololens
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
+        revision: 
+        path: 
+    - packageId: com.microsoft.mixedreality.toolkit.extensions@file:C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.6.0.tgz
+      testable: 0
+      isDirectDependency: 1
+      version: 2.6.0
+      source: 6
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.toolkit.extensions@9f98b25bab33-1621465974125
+      assetPath: Packages/com.microsoft.mixedreality.toolkit.extensions
+      name: com.microsoft.mixedreality.toolkit.extensions
+      displayName: Mixed Reality Toolkit Extensions
+      author:
+        name: Microsoft
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'Extensions to the Microsoft Mixed Reality Toolkit. This package
+        includes: Hand Physics Service, Lost Tracking Service and Scene Transition
+        Service.'
+      status: 4
+      errors: []
+      versions:
+        all: []
+        compatible: []
+        verified: 
+      dependencies:
+      - name: com.microsoft.mixedreality.toolkit.foundation
+        version: 2.6.0
+      resolvedDependencies:
+      - name: com.microsoft.mixedreality.toolkit.foundation
+        version: 2.6.0
+      - name: com.microsoft.mixedreality.toolkit.standardassets
+        version: 2.6.0
+      - name: com.unity.textmeshpro
+        version: 3.0.1
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      keywords:
+      - mrtk
+      - microsoft
+      - mixed
+      - reality
+      - augmented
+      - virtual
+      - hololens
+      - xr
+      - extensions
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
+        revision: 
+        path: 
+    - packageId: com.microsoft.mixedreality.toolkit.foundation@file:C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.6.0.tgz
+      testable: 0
+      isDirectDependency: 1
+      version: 2.6.0
+      source: 6
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1621465974167
+      assetPath: Packages/com.microsoft.mixedreality.toolkit.foundation
+      name: com.microsoft.mixedreality.toolkit.foundation
+      displayName: Mixed Reality Toolkit Foundation
+      author:
+        name: Microsoft
+        email: 
+        url: 
+      category: 
+      type: 
+      description: The Mixed Reality Toolkit a set of foundational components and
+        features to accelerate mixed reality app development in Unity.
+      status: 4
+      errors: []
+      versions:
+        all: []
+        compatible: []
+        verified: 
+      dependencies:
+      - name: com.microsoft.mixedreality.toolkit.standardassets
+        version: 2.6.0
+      resolvedDependencies:
+      - name: com.microsoft.mixedreality.toolkit.standardassets
+        version: 2.6.0
+      - name: com.unity.textmeshpro
+        version: 3.0.1
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      keywords:
+      - mrtk
+      - microsoft
+      - mixed
+      - reality
+      - augmented
+      - virtual
+      - xr
+      - hololens
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
+        revision: 
+        path: 
+    - packageId: com.microsoft.mixedreality.toolkit.gpustats@file:C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.gpustats-1.0.3.tgz
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.3
+      source: 6
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.toolkit.gpustats@cc35e6531626-1621465974169
+      assetPath: Packages/com.microsoft.mixedreality.toolkit.gpustats
+      name: com.microsoft.mixedreality.toolkit.gpustats
+      displayName: Mixed Reality Toolkit GPU Stats
+      author:
+        name: Microsoft
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Provides utilities for accessing stats about the GPU, like frame
+        timing and VRAM usage.
+      status: 4
+      errors: []
+      versions:
+        all: []
+        compatible: []
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - mrtk
+      - microsoft
+      - mixed
+      - reality
+      - xr
+      - hololens
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/microsoft/MixedRealityToolkit.git
+        revision: 
+        path: 
+    - packageId: com.microsoft.mixedreality.toolkit.planefinding@file:C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.planefinding-1.0.0.tgz
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 6
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.toolkit.planefinding@9ef0c066b3a1-1621465974170
+      assetPath: Packages/com.microsoft.mixedreality.toolkit.planefinding
+      name: com.microsoft.mixedreality.toolkit.planefinding
+      displayName: Mixed Reality Toolkit Plane Finding
+      author:
+        name: Microsoft
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Provides utilities to calculate planes based on a mesh.
+      status: 4
+      errors: []
+      versions:
+        all: []
+        compatible: []
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - mrtk
+      - microsoft
+      - mixed
+      - reality
+      - xr
+      - hololens
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/microsoft/MixedRealityToolkit.git
+        revision: 
+        path: 
+    - packageId: com.microsoft.mixedreality.toolkit.standardassets@file:C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.6.0.tgz
+      testable: 0
+      isDirectDependency: 1
+      version: 2.6.0
+      source: 6
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@42b2700b0b0a-1621465974193
+      assetPath: Packages/com.microsoft.mixedreality.toolkit.standardassets
+      name: com.microsoft.mixedreality.toolkit.standardassets
+      displayName: Mixed Reality Toolkit Standard Assets
+      author:
+        name: Microsoft
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Mixed Reality Toolkit standard assets, including; shaders, common
+        materials and fonts.
+      status: 4
+      errors: []
+      versions:
+        all: []
+        compatible: []
+        verified: 
+      dependencies:
+      - name: com.unity.textmeshpro
+        version: 2.1.4
+      resolvedDependencies:
+      - name: com.unity.textmeshpro
+        version: 3.0.1
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      keywords:
+      - mrtk
+      - microsoft
+      - mixed
+      - reality
+      - augmented
+      - virtual
+      - xr
+      - hololens
+      - assets
+      - standardassets
+      - coreassets
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
+        revision: 
+        path: 
+    - packageId: com.microsoft.mixedreality.toolkit.testutilities@file:C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.testutilities-2.6.0.tgz
+      testable: 0
+      isDirectDependency: 1
+      version: 2.6.0
+      source: 6
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.toolkit.testutilities@085038a3fd9c-1621465974194
+      assetPath: Packages/com.microsoft.mixedreality.toolkit.testutilities
+      name: com.microsoft.mixedreality.toolkit.testutilities
+      displayName: Mixed Reality Toolkit Test Utilities
+      author:
+        name: Microsoft
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Test utilities for use with the Microsoft Mixed Reality Toolkit
+      status: 4
+      errors: []
+      versions:
+        all: []
+        compatible: []
+        verified: 
+      dependencies:
+      - name: com.microsoft.mixedreality.toolkit.foundation
+        version: 2.6.0
+      resolvedDependencies:
+      - name: com.microsoft.mixedreality.toolkit.foundation
+        version: 2.6.0
+      - name: com.microsoft.mixedreality.toolkit.standardassets
+        version: 2.6.0
+      - name: com.unity.textmeshpro
+        version: 3.0.1
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      keywords:
+      - mrtk
+      - microsoft
+      - mixed
+      - reality
+      - augmented
+      - virtual
+      - xr
+      - hololens
+      - test
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
+        revision: 
+        path: 
+    - packageId: com.microsoft.mixedreality.toolkit.tools@file:C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.tools-2.6.0.tgz
+      testable: 0
+      isDirectDependency: 1
+      version: 2.6.0
+      source: 6
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.toolkit.tools@4331c8387e24-1621465974203
+      assetPath: Packages/com.microsoft.mixedreality.toolkit.tools
+      name: com.microsoft.mixedreality.toolkit.tools
+      displayName: Mixed Reality Toolkit Tools
+      author:
+        name: Microsoft
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Tools for the Microsoft Mixed Reality Toolkit
+      status: 4
+      errors: []
+      versions:
+        all: []
+        compatible: []
+        verified: 
+      dependencies:
+      - name: com.microsoft.mixedreality.toolkit.foundation
+        version: 2.6.0
+      resolvedDependencies:
+      - name: com.microsoft.mixedreality.toolkit.foundation
+        version: 2.6.0
+      - name: com.microsoft.mixedreality.toolkit.standardassets
+        version: 2.6.0
+      - name: com.unity.textmeshpro
+        version: 3.0.1
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      keywords:
+      - mrtk
+      - microsoft
+      - mixed
+      - reality
+      - augmented
+      - virtual
+      - xr
+      - hololens
+      - tools
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
+        revision: 
+        path: 
+    - packageId: com.microsoft.mixedreality.worldlockingsamples@file:C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.worldlockingsamples-1.3.0.tgz
+      testable: 0
+      isDirectDependency: 1
+      version: 1.3.0
+      source: 6
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.worldlockingsamples@a6771b75acf2-1621465974205
+      assetPath: Packages/com.microsoft.mixedreality.worldlockingsamples
+      name: com.microsoft.mixedreality.worldlockingsamples
+      displayName: WLT Samples
+      author:
+        name: Microsoft
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'Basic examples for World Locking Tools.
+
+
+        Further samples
+        available at
+
+        https://microsoft.github.io/MixedReality-WorldLockingTools-Samples/README.html'
+      status: 4
+      errors: []
+      versions:
+        all: []
+        compatible: []
+        verified: 
+      dependencies:
+      - name: com.microsoft.mixedreality.toolkit.foundation
+        version: 2.6.0
+      - name: com.microsoft.mixedreality.worldlockingtools
+        version: 1.3.0
+      resolvedDependencies:
+      - name: com.microsoft.mixedreality.toolkit.foundation
+        version: 2.6.0
+      - name: com.microsoft.mixedreality.toolkit.standardassets
+        version: 2.6.0
+      - name: com.unity.textmeshpro
+        version: 3.0.1
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.microsoft.mixedreality.worldlockingtools
+        version: 1.3.0
+      keywords:
+      - mrtk
+      - reality
+      - mr
+      - mixed
+      - ar
+      - augmented
+      - vr
+      - virtual
+      - xr
+      - anchor
+      - hololens
+      - android
+      - ios
+      - xrsdk
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/microsoft/MixedReality-WorldLockingTools-Unity.git
+        revision: 
+        path: 
+    - packageId: com.microsoft.mixedreality.worldlockingtools@file:C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.worldlockingtools-1.3.0.tgz
+      testable: 0
+      isDirectDependency: 1
+      version: 1.3.0
+      source: 6
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.worldlockingtools@157631ddafe7-1621465974269
+      assetPath: Packages/com.microsoft.mixedreality.worldlockingtools
+      name: com.microsoft.mixedreality.worldlockingtools
+      displayName: WLT Core
+      author:
+        name: Microsoft
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'World Locking Tools for Unity (WLT)
+
+
+        Lock AR virtual
+        space to physical space automatically and intuitively, without requiring
+        application management of anchors.
+
+        Preserve object relative layout,
+        while remaining perceptually stationary in the physical world.'
+      status: 4
+      errors: []
+      versions:
+        all: []
+        compatible: []
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - mrtk
+      - reality
+      - mr
+      - mixed
+      - ar
+      - augmented
+      - vr
+      - virtual
+      - xr
+      - anchor
+      - worldlock
+      - hololens
+      - android
+      - ios
+      - xrsdk
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/microsoft/MixedReality-WorldLockingTools-Unity.git
+        revision: 
+        path: 
+    - packageId: com.microsoft.spatialaudio.spatializer.unity@file:C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.spatialaudio.spatializer.unity-1.0.176.tgz
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.176
+      source: 6
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.spatialaudio.spatializer.unity@abff6ad3e728-1621465974271
+      assetPath: Packages/com.microsoft.spatialaudio.spatializer.unity
+      name: com.microsoft.spatialaudio.spatializer.unity
+      displayName: Microsoft Spatializer
+      author:
+        name: Microsoft
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Audio Spatializer for HoloLens and Windows Mixed Reality applications
+      status: 4
+      errors: []
+      versions:
+        all: []
+        compatible: []
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - microsoft
+      - mixed
+      - reality
+      - spatial
+      - audio
+      - spatializer
+      - augmented
+      - virtual
+      - hololens
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/microsoft/spatialaudio-unity
+        revision: 
+        path: 
     - packageId: com.unity.collab-proxy@1.3.9
       testable: 0
       isDirectDependency: 1
       version: 1.3.9
       source: 1
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.unity.collab-proxy@1.3.9
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.unity.collab-proxy@1.3.9
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Unity Collaborate
@@ -59,6 +906,7 @@ m_PackageAssets:
         - 1.3.7
         - 1.3.8
         - 1.3.9
+        - 1.5.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -71,6 +919,7 @@ m_PackageAssets:
         - 2.1.0-preview.6
         compatible:
         - 1.3.9
+        - 1.5.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -120,7 +969,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -192,7 +1041,7 @@ m_PackageAssets:
         version: 1.1.1
       resolvedDependencies:
       - name: com.unity.test-framework
-        version: 1.1.22
+        version: 1.1.24
       - name: com.unity.ext.nunit
         version: 1.0.6
       - name: com.unity.modules.imgui
@@ -225,7 +1074,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -254,6 +1103,7 @@ m_PackageAssets:
         - 2.0.3
         - 2.0.5
         - 2.0.7
+        - 2.0.8
         compatible:
         - 1.0.2
         - 1.0.3
@@ -267,13 +1117,14 @@ m_PackageAssets:
         - 2.0.3
         - 2.0.5
         - 2.0.7
-        verified: 2.0.7
+        - 2.0.8
+        verified: 2.0.8
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.9
       resolvedDependencies:
       - name: com.unity.test-framework
-        version: 1.1.22
+        version: 1.1.24
       - name: com.unity.ext.nunit
         version: 1.0.6
       - name: com.unity.modules.imgui
@@ -306,7 +1157,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -375,7 +1226,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 4.5.0
       source: 1
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.unity.probuilder@4.5.0
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.unity.probuilder@4.5.0
       assetPath: Packages/com.unity.probuilder
       name: com.unity.probuilder
       displayName: ProBuilder
@@ -513,7 +1364,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.2-preview.3
       source: 1
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.unity.terrain-tools@3.0.2-preview.3
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.unity.terrain-tools@3.0.2-preview.3
       assetPath: Packages/com.unity.terrain-tools
       name: com.unity.terrain-tools
       displayName: Terrain Tools
@@ -539,6 +1390,7 @@ m_PackageAssets:
         - 3.0.1-preview
         - 3.0.2-preview.2
         - 3.0.2-preview.3
+        - 4.0.0-pre.2
         compatible:
         - 1.1.2-preview
         - 1.1.4-preview
@@ -579,12 +1431,12 @@ m_PackageAssets:
         url: git+https://github.com/Unity-Technologies/TerrainTools.git
         revision: 76c6077597a43827f933b02c7db9ca819c74588e
         path: 
-    - packageId: com.unity.test-framework@1.1.22
+    - packageId: com.unity.test-framework@1.1.24
       testable: 0
       isDirectDependency: 1
-      version: 1.1.22
+      version: 1.1.24
       source: 1
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.unity.test-framework@1.1.22
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.unity.test-framework@1.1.24
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -628,7 +1480,6 @@ m_PackageAssets:
         - 1.1.22
         - 1.1.24
         compatible:
-        - 1.1.22
         - 1.1.24
         verified: 1.1.24
       dependencies:
@@ -660,20 +1511,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637469345300000000
+      datePublishedTicks: 637505702940000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
-        revision: 56c667cbc326a1cbab8dfd7ebc693a1121d0abe1
+        revision: e6fe8892689398c0d9aba4587e0ba69edc3d82b8
         path: 
     - packageId: com.unity.textmeshpro@3.0.1
       testable: 0
       isDirectDependency: 1
       version: 3.0.1
       source: 1
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.unity.textmeshpro@3.0.1
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.unity.textmeshpro@3.0.1
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -827,12 +1678,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
         revision: 1604b62e543216408311bcd1355a7a9ca1e65765
         path: 
-    - packageId: com.unity.timeline@1.4.6
+    - packageId: com.unity.timeline@1.4.7
       testable: 0
       isDirectDependency: 1
-      version: 1.4.6
+      version: 1.4.7
       source: 1
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.unity.timeline@1.4.6
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.unity.timeline@1.4.7
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -893,6 +1744,7 @@ m_PackageAssets:
         - 1.4.5
         - 1.4.6
         - 1.4.7
+        - 1.4.8
         - 1.5.0-pre.2
         - 1.5.0-preview.1
         - 1.5.0-preview.2
@@ -904,11 +1756,14 @@ m_PackageAssets:
         - 1.5.1-pre.3
         - 1.5.2
         - 1.5.4
+        - 1.5.5
         - 1.6.0-pre.1
         - 1.6.0-pre.3
+        - 1.6.0-pre.4
+        - 1.6.0-pre.5
         compatible:
-        - 1.4.6
         - 1.4.7
+        - 1.4.8
         - 1.5.0-pre.2
         - 1.5.0-preview.1
         - 1.5.0-preview.2
@@ -920,9 +1775,12 @@ m_PackageAssets:
         - 1.5.1-pre.3
         - 1.5.2
         - 1.5.4
+        - 1.5.5
         - 1.6.0-pre.1
         - 1.6.0-pre.3
-        verified: 1.4.7
+        - 1.6.0-pre.4
+        - 1.6.0-pre.5
+        verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
         version: 1.0.0
@@ -959,20 +1817,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637463150940000000
+      datePublishedTicks: 637516874380000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-        revision: 2fe55e5d14362cc4fdcc886f56dbfe518298e4a5
+        revision: 66f96ddbbc76f565093e1e5e5d3d322d28acc7d7
         path: 
     - packageId: com.unity.ugui@1.0.0
       testable: 0
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui
       assetPath: Packages/com.unity.ugui
       name: com.unity.ugui
       displayName: Unity UI
@@ -1035,7 +1893,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
       assetPath: Packages/com.unity.modules.ai
       name: com.unity.modules.ai
       displayName: AI
@@ -1083,7 +1941,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
       assetPath: Packages/com.unity.modules.androidjni
       name: com.unity.modules.androidjni
       displayName: Android JNI
@@ -1131,7 +1989,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
       assetPath: Packages/com.unity.modules.animation
       name: com.unity.modules.animation
       displayName: Animation
@@ -1179,7 +2037,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
       assetPath: Packages/com.unity.modules.assetbundle
       name: com.unity.modules.assetbundle
       displayName: Asset Bundle
@@ -1227,7 +2085,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
       assetPath: Packages/com.unity.modules.audio
       name: com.unity.modules.audio
       displayName: Audio
@@ -1275,7 +2133,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
       assetPath: Packages/com.unity.modules.cloth
       name: com.unity.modules.cloth
       displayName: Cloth
@@ -1327,7 +2185,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
       assetPath: Packages/com.unity.modules.director
       name: com.unity.modules.director
       displayName: Director
@@ -1383,7 +2241,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
       assetPath: Packages/com.unity.modules.imageconversion
       name: com.unity.modules.imageconversion
       displayName: Image Conversion
@@ -1432,7 +2290,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
       assetPath: Packages/com.unity.modules.imgui
       name: com.unity.modules.imgui
       displayName: IMGUI
@@ -1480,7 +2338,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
       assetPath: Packages/com.unity.modules.jsonserialize
       name: com.unity.modules.jsonserialize
       displayName: JSONSerialize
@@ -1528,7 +2386,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
       assetPath: Packages/com.unity.modules.particlesystem
       name: com.unity.modules.particlesystem
       displayName: Particle System
@@ -1576,7 +2434,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
       assetPath: Packages/com.unity.modules.physics
       name: com.unity.modules.physics
       displayName: Physics
@@ -1624,7 +2482,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
       assetPath: Packages/com.unity.modules.physics2d
       name: com.unity.modules.physics2d
       displayName: Physics 2D
@@ -1672,7 +2530,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
       assetPath: Packages/com.unity.modules.screencapture
       name: com.unity.modules.screencapture
       displayName: Screen Capture
@@ -1724,7 +2582,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
       assetPath: Packages/com.unity.modules.terrain
       name: com.unity.modules.terrain
       displayName: Terrain
@@ -1772,7 +2630,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
       assetPath: Packages/com.unity.modules.terrainphysics
       name: com.unity.modules.terrainphysics
       displayName: Terrain Physics
@@ -1828,7 +2686,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
       assetPath: Packages/com.unity.modules.tilemap
       name: com.unity.modules.tilemap
       displayName: Tilemap
@@ -1880,7 +2738,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
       assetPath: Packages/com.unity.modules.ui
       name: com.unity.modules.ui
       displayName: UI
@@ -1928,7 +2786,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
       assetPath: Packages/com.unity.modules.uielements
       name: com.unity.modules.uielements
       displayName: UIElements
@@ -1992,7 +2850,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
       assetPath: Packages/com.unity.modules.umbra
       name: com.unity.modules.umbra
       displayName: Umbra
@@ -2040,7 +2898,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
       assetPath: Packages/com.unity.modules.unityanalytics
       name: com.unity.modules.unityanalytics
       displayName: Unity Analytics
@@ -2096,7 +2954,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
       assetPath: Packages/com.unity.modules.unitywebrequest
       name: com.unity.modules.unitywebrequest
       displayName: Unity Web Request
@@ -2144,7 +3002,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
       assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
       name: com.unity.modules.unitywebrequestassetbundle
       displayName: Unity Web Request Asset Bundle
@@ -2200,7 +3058,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
       assetPath: Packages/com.unity.modules.unitywebrequestaudio
       name: com.unity.modules.unitywebrequestaudio
       displayName: Unity Web Request Audio
@@ -2256,7 +3114,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
       assetPath: Packages/com.unity.modules.unitywebrequesttexture
       name: com.unity.modules.unitywebrequesttexture
       displayName: Unity Web Request Texture
@@ -2312,7 +3170,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
       assetPath: Packages/com.unity.modules.unitywebrequestwww
       name: com.unity.modules.unitywebrequestwww
       displayName: Unity Web Request WWW
@@ -2384,7 +3242,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
       assetPath: Packages/com.unity.modules.vehicles
       name: com.unity.modules.vehicles
       displayName: Vehicles
@@ -2436,7 +3294,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
       assetPath: Packages/com.unity.modules.video
       name: com.unity.modules.video
       displayName: Video
@@ -2496,7 +3354,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
       assetPath: Packages/com.unity.modules.vr
       name: com.unity.modules.vr
       displayName: VR
@@ -2558,7 +3416,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
       assetPath: Packages/com.unity.modules.wind
       name: com.unity.modules.wind
       displayName: Wind
@@ -2606,7 +3464,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
       assetPath: Packages/com.unity.modules.xr
       name: com.unity.modules.xr
       displayName: XR
@@ -2661,296 +3519,38 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.microsoft.mixedreality.toolkit.examples@file:C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.6.0.tgz
+    - packageId: com.unity.modules.subsystems@1.0.0
       testable: 0
-      isDirectDependency: 1
-      version: 2.6.0
-      source: 6
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.toolkit.examples@37e8ff5f4167-1620256659098
-      assetPath: Packages/com.microsoft.mixedreality.toolkit.examples
-      name: com.microsoft.mixedreality.toolkit.examples
-      displayName: Mixed Reality Toolkit Examples
-      author:
-        name: Microsoft
-        email: 
-        url: 
-      category: 
-      type: 
-      description: Example scenes and assets for the Microsoft Mixed Reality Toolkit.
-      status: 4
-      errors: []
-      versions:
-        all: []
-        compatible: []
-        verified: 
-      dependencies:
-      - name: com.microsoft.mixedreality.toolkit.foundation
-        version: 2.6.0
-      - name: com.microsoft.mixedreality.toolkit.extensions
-        version: 2.6.0
-      resolvedDependencies:
-      - name: com.microsoft.mixedreality.toolkit.foundation
-        version: 2.6.0
-      - name: com.microsoft.mixedreality.toolkit.standardassets
-        version: 2.6.0
-      - name: com.unity.textmeshpro
-        version: 3.0.1
-      - name: com.unity.ugui
-        version: 1.0.0
-      - name: com.unity.modules.ui
-        version: 1.0.0
-      - name: com.unity.modules.imgui
-        version: 1.0.0
-      - name: com.microsoft.mixedreality.toolkit.extensions
-        version: 2.6.0
-      keywords:
-      - mrtk
-      - microsoft
-      - mixed
-      - reality
-      - augmented
-      - virtual
-      - xr
-      - hololens
-      registry:
-        id: 
-        name: 
-        url: 
-        scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 0
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
-        revision: 
-        path: 
-    - packageId: com.microsoft.mixedreality.toolkit.extensions@file:C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.6.0.tgz
-      testable: 0
-      isDirectDependency: 1
-      version: 2.6.0
-      source: 6
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.toolkit.extensions@cd17f17e885f-1620256659106
-      assetPath: Packages/com.microsoft.mixedreality.toolkit.extensions
-      name: com.microsoft.mixedreality.toolkit.extensions
-      displayName: Mixed Reality Toolkit Extensions
-      author:
-        name: Microsoft
-        email: 
-        url: 
-      category: 
-      type: 
-      description: 'Extensions to the Microsoft Mixed Reality Toolkit. This package
-        includes: Hand Physics Service, Lost Tracking Service and Scene Transition
-        Service.'
-      status: 4
-      errors: []
-      versions:
-        all: []
-        compatible: []
-        verified: 
-      dependencies:
-      - name: com.microsoft.mixedreality.toolkit.foundation
-        version: 2.6.0
-      resolvedDependencies:
-      - name: com.microsoft.mixedreality.toolkit.foundation
-        version: 2.6.0
-      - name: com.microsoft.mixedreality.toolkit.standardassets
-        version: 2.6.0
-      - name: com.unity.textmeshpro
-        version: 3.0.1
-      - name: com.unity.ugui
-        version: 1.0.0
-      - name: com.unity.modules.ui
-        version: 1.0.0
-      - name: com.unity.modules.imgui
-        version: 1.0.0
-      keywords:
-      - mrtk
-      - microsoft
-      - mixed
-      - reality
-      - augmented
-      - virtual
-      - hololens
-      - xr
-      - extensions
-      registry:
-        id: 
-        name: 
-        url: 
-        scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 0
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
-        revision: 
-        path: 
-    - packageId: com.microsoft.mixedreality.toolkit.foundation@file:C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.6.0.tgz
-      testable: 0
-      isDirectDependency: 1
-      version: 2.6.0
-      source: 6
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@04ace8e18acd-1620256659146
-      assetPath: Packages/com.microsoft.mixedreality.toolkit.foundation
-      name: com.microsoft.mixedreality.toolkit.foundation
-      displayName: Mixed Reality Toolkit Foundation
-      author:
-        name: Microsoft
-        email: 
-        url: 
-      category: 
-      type: 
-      description: The Mixed Reality Toolkit a set of foundational components and
-        features to accelerate mixed reality app development in Unity.
-      status: 4
-      errors: []
-      versions:
-        all: []
-        compatible: []
-        verified: 
-      dependencies:
-      - name: com.microsoft.mixedreality.toolkit.standardassets
-        version: 2.6.0
-      resolvedDependencies:
-      - name: com.microsoft.mixedreality.toolkit.standardassets
-        version: 2.6.0
-      - name: com.unity.textmeshpro
-        version: 3.0.1
-      - name: com.unity.ugui
-        version: 1.0.0
-      - name: com.unity.modules.ui
-        version: 1.0.0
-      - name: com.unity.modules.imgui
-        version: 1.0.0
-      keywords:
-      - mrtk
-      - microsoft
-      - mixed
-      - reality
-      - augmented
-      - virtual
-      - xr
-      - hololens
-      registry:
-        id: 
-        name: 
-        url: 
-        scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 0
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
-        revision: 
-        path: 
-    - packageId: com.microsoft.mixedreality.toolkit.gpustats@file:C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.gpustats-1.0.3.tgz
-      testable: 0
-      isDirectDependency: 1
-      version: 1.0.3
-      source: 6
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.toolkit.gpustats@244f280e5963-1620256659148
-      assetPath: Packages/com.microsoft.mixedreality.toolkit.gpustats
-      name: com.microsoft.mixedreality.toolkit.gpustats
-      displayName: Mixed Reality Toolkit GPU Stats
-      author:
-        name: Microsoft
-        email: 
-        url: 
-      category: 
-      type: 
-      description: Provides utilities for accessing stats about the GPU, like frame
-        timing and VRAM usage.
-      status: 4
-      errors: []
-      versions:
-        all: []
-        compatible: []
-        verified: 
-      dependencies: []
-      resolvedDependencies: []
-      keywords:
-      - mrtk
-      - microsoft
-      - mixed
-      - reality
-      - xr
-      - hololens
-      registry:
-        id: 
-        name: 
-        url: 
-        scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 0
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.com/microsoft/MixedRealityToolkit.git
-        revision: 
-        path: 
-    - packageId: com.microsoft.mixedreality.toolkit.planefinding@file:C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.planefinding-1.0.0.tgz
-      testable: 0
-      isDirectDependency: 1
+      isDirectDependency: 0
       version: 1.0.0
-      source: 6
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.toolkit.planefinding@073b8f25a89b-1620256659149
-      assetPath: Packages/com.microsoft.mixedreality.toolkit.planefinding
-      name: com.microsoft.mixedreality.toolkit.planefinding
-      displayName: Mixed Reality Toolkit Plane Finding
+      source: 2
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
+      assetPath: Packages/com.unity.modules.subsystems
+      name: com.unity.modules.subsystems
+      displayName: Subsystems
       author:
-        name: Microsoft
+        name: 
         email: 
         url: 
       category: 
-      type: 
-      description: Provides utilities to calculate planes based on a mesh.
+      type: module
+      description: 'The Subsystem module contains the definitions and runtime support
+        for general subsystems in Unity. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.SubsystemsModule.html'
       status: 4
       errors: []
       versions:
-        all: []
-        compatible: []
-        verified: 
-      dependencies: []
-      resolvedDependencies: []
-      keywords:
-      - mrtk
-      - microsoft
-      - mixed
-      - reality
-      - xr
-      - hololens
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies:
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      keywords: []
       registry:
         id: 
         name: 
@@ -2965,586 +3565,51 @@ m_PackageAssets:
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
-      hasRepository: 1
+      hasRepository: 0
       repository:
-        type: git
-        url: https://github.com/microsoft/MixedRealityToolkit.git
+        type: 
+        url: 
         revision: 
         path: 
-    - packageId: com.microsoft.mixedreality.toolkit.standardassets@file:C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.6.0.tgz
+    - packageId: com.unity.modules.uielementsnative@1.0.0
       testable: 0
-      isDirectDependency: 1
-      version: 2.6.0
-      source: 6
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@5965e4ab7168-1620256659170
-      assetPath: Packages/com.microsoft.mixedreality.toolkit.standardassets
-      name: com.microsoft.mixedreality.toolkit.standardassets
-      displayName: Mixed Reality Toolkit Standard Assets
+      isDirectDependency: 0
+      version: 1.0.0
+      source: 2
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielementsnative
+      assetPath: Packages/com.unity.modules.uielementsnative
+      name: com.unity.modules.uielementsnative
+      displayName: UIElements Native
       author:
-        name: Microsoft
+        name: 
         email: 
         url: 
       category: 
-      type: 
-      description: Mixed Reality Toolkit standard assets, including; shaders, common
-        materials and fonts.
+      type: module
+      description: 
       status: 4
       errors: []
       versions:
-        all: []
-        compatible: []
-        verified: 
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
       dependencies:
-      - name: com.unity.textmeshpro
-        version: 2.1.4
-      resolvedDependencies:
-      - name: com.unity.textmeshpro
-        version: 3.0.1
-      - name: com.unity.ugui
-        version: 1.0.0
       - name: com.unity.modules.ui
         version: 1.0.0
       - name: com.unity.modules.imgui
-        version: 1.0.0
-      keywords:
-      - mrtk
-      - microsoft
-      - mixed
-      - reality
-      - augmented
-      - virtual
-      - xr
-      - hololens
-      - assets
-      - standardassets
-      - coreassets
-      registry:
-        id: 
-        name: 
-        url: 
-        scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 0
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
-        revision: 
-        path: 
-    - packageId: com.microsoft.mixedreality.toolkit.testutilities@file:C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.testutilities-2.6.0.tgz
-      testable: 0
-      isDirectDependency: 1
-      version: 2.6.0
-      source: 6
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.toolkit.testutilities@50a4f5951a86-1620256659171
-      assetPath: Packages/com.microsoft.mixedreality.toolkit.testutilities
-      name: com.microsoft.mixedreality.toolkit.testutilities
-      displayName: Mixed Reality Toolkit Test Utilities
-      author:
-        name: Microsoft
-        email: 
-        url: 
-      category: 
-      type: 
-      description: Test utilities for use with the Microsoft Mixed Reality Toolkit
-      status: 4
-      errors: []
-      versions:
-        all: []
-        compatible: []
-        verified: 
-      dependencies:
-      - name: com.microsoft.mixedreality.toolkit.foundation
-        version: 2.6.0
-      resolvedDependencies:
-      - name: com.microsoft.mixedreality.toolkit.foundation
-        version: 2.6.0
-      - name: com.microsoft.mixedreality.toolkit.standardassets
-        version: 2.6.0
-      - name: com.unity.textmeshpro
-        version: 3.0.1
-      - name: com.unity.ugui
-        version: 1.0.0
-      - name: com.unity.modules.ui
-        version: 1.0.0
-      - name: com.unity.modules.imgui
-        version: 1.0.0
-      keywords:
-      - mrtk
-      - microsoft
-      - mixed
-      - reality
-      - augmented
-      - virtual
-      - xr
-      - hololens
-      - test
-      registry:
-        id: 
-        name: 
-        url: 
-        scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 0
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
-        revision: 
-        path: 
-    - packageId: com.microsoft.mixedreality.toolkit.tools@file:C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.tools-2.6.0.tgz
-      testable: 0
-      isDirectDependency: 1
-      version: 2.6.0
-      source: 6
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.toolkit.tools@5b5143a54f3b-1620256659179
-      assetPath: Packages/com.microsoft.mixedreality.toolkit.tools
-      name: com.microsoft.mixedreality.toolkit.tools
-      displayName: Mixed Reality Toolkit Tools
-      author:
-        name: Microsoft
-        email: 
-        url: 
-      category: 
-      type: 
-      description: Tools for the Microsoft Mixed Reality Toolkit
-      status: 4
-      errors: []
-      versions:
-        all: []
-        compatible: []
-        verified: 
-      dependencies:
-      - name: com.microsoft.mixedreality.toolkit.foundation
-        version: 2.6.0
-      resolvedDependencies:
-      - name: com.microsoft.mixedreality.toolkit.foundation
-        version: 2.6.0
-      - name: com.microsoft.mixedreality.toolkit.standardassets
-        version: 2.6.0
-      - name: com.unity.textmeshpro
-        version: 3.0.1
-      - name: com.unity.ugui
-        version: 1.0.0
-      - name: com.unity.modules.ui
-        version: 1.0.0
-      - name: com.unity.modules.imgui
-        version: 1.0.0
-      keywords:
-      - mrtk
-      - microsoft
-      - mixed
-      - reality
-      - augmented
-      - virtual
-      - xr
-      - hololens
-      - tools
-      registry:
-        id: 
-        name: 
-        url: 
-        scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 0
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
-        revision: 
-        path: 
-    - packageId: com.microsoft.mixedreality.openxr@file:C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.openxr-0.1.4.tgz
-      testable: 0
-      isDirectDependency: 1
-      version: 0.1.4
-      source: 6
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.openxr@bedb6dcb056a-1620256658871
-      assetPath: Packages/com.microsoft.mixedreality.openxr
-      name: com.microsoft.mixedreality.openxr
-      displayName: Mixed Reality OpenXR Plugin
-      author:
-        name: Microsoft
-        email: 
-        url: 
-      category: 
-      type: 
-      description: Extension to Unity OpenXR Plugin to support a suite of features
-        for HoloLens 2 and Windows Mixed Reality headsets.
-      status: 4
-      errors: []
-      versions:
-        all: []
-        compatible: []
-        verified: 
-      dependencies:
-      - name: com.unity.xr.openxr
-        version: 1.0.2
-      - name: com.unity.xr.arsubsystems
-        version: 4.1.5
-      resolvedDependencies:
-      - name: com.unity.xr.openxr
-        version: 1.0.2
-      - name: com.unity.xr.management
-        version: 4.0.1
-      - name: com.unity.modules.subsystems
         version: 1.0.0
       - name: com.unity.modules.jsonserialize
         version: 1.0.0
-      - name: com.unity.modules.vr
-        version: 1.0.0
-      - name: com.unity.modules.physics
-        version: 1.0.0
-      - name: com.unity.modules.xr
-        version: 1.0.0
-      - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.7
-      - name: com.unity.subsystemregistration
-        version: 1.1.0
-      - name: com.unity.inputsystem
-        version: 1.0.2
-      - name: com.unity.xr.arsubsystems
-        version: 4.1.5
-      keywords:
-      - microsoft
-      - mixed
-      - reality
-      - openxr
-      - hololens
-      - xreditorsubsystem
-      registry:
-        id: 
-        name: 
-        url: 
-        scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 0
-      documentationUrl: 
-      hasRepository: 0
-      repository:
-        type: 
-        url: 
-        revision: 
-        path: 
-    - packageId: com.microsoft.mixedreality.sceneunderstanding@file:C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.sceneunderstanding-0.6.0.tgz
-      testable: 0
-      isDirectDependency: 1
-      version: 0.6.0
-      source: 6
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.sceneunderstanding@fd5ac920328b-1620256658877
-      assetPath: Packages/com.microsoft.mixedreality.sceneunderstanding
-      name: com.microsoft.mixedreality.sceneunderstanding
-      displayName: Mixed Reality Scene Understanding
-      author:
-        name: Microsoft
-        email: 
-        url: http://aka.ms/MR-SU
-      category: 
-      type: 
-      description: SDK for Scene Understanding on Windows Mixed Reality devices.
-        Computes a description of the scene surrounding the user (walls, floors,
-        surfaces, etc.), including quads, meshes, and content placement hints.
-      status: 4
-      errors: []
-      versions:
-        all: []
-        compatible: []
-        verified: 
-      dependencies: []
-      resolvedDependencies: []
-      keywords:
-      - microsoft
-      - hololens
-      - mixed
-      - reality
-      - scene
-      - understanding
-      - sceneunderstanding
-      - spatial
-      - mapping
-      - spatialmapping
-      registry:
-        id: 
-        name: 
-        url: 
-        scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 0
-      documentationUrl: 
-      hasRepository: 0
-      repository:
-        type: 
-        url: 
-        revision: 
-        path: 
-    - packageId: com.microsoft.spatialaudio.spatializer.unity@file:C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.spatialaudio.spatializer.unity-1.0.176.tgz
-      testable: 0
-      isDirectDependency: 1
-      version: 1.0.176
-      source: 6
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.microsoft.spatialaudio.spatializer.unity@d41a6289ea57-1620256659248
-      assetPath: Packages/com.microsoft.spatialaudio.spatializer.unity
-      name: com.microsoft.spatialaudio.spatializer.unity
-      displayName: Microsoft Spatializer
-      author:
-        name: Microsoft
-        email: 
-        url: 
-      category: 
-      type: 
-      description: Audio Spatializer for HoloLens and Windows Mixed Reality applications
-      status: 4
-      errors: []
-      versions:
-        all: []
-        compatible: []
-        verified: 
-      dependencies: []
-      resolvedDependencies: []
-      keywords:
-      - microsoft
-      - mixed
-      - reality
-      - spatial
-      - audio
-      - spatializer
-      - augmented
-      - virtual
-      - hololens
-      registry:
-        id: 
-        name: 
-        url: 
-        scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 0
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.com/microsoft/spatialaudio-unity
-        revision: 
-        path: 
-    - packageId: com.microsoft.mixedreality.worldlockingsamples@file:C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.worldlockingsamples-1.3.0.tgz
-      testable: 0
-      isDirectDependency: 1
-      version: 1.3.0
-      source: 6
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.worldlockingsamples@1aeedeeb75ff-1620256659181
-      assetPath: Packages/com.microsoft.mixedreality.worldlockingsamples
-      name: com.microsoft.mixedreality.worldlockingsamples
-      displayName: WLT Samples
-      author:
-        name: Microsoft
-        email: 
-        url: 
-      category: 
-      type: 
-      description: 'Basic examples for World Locking Tools.
-
-
-        Further samples
-        available at
-
-        https://microsoft.github.io/MixedReality-WorldLockingTools-Samples/README.html'
-      status: 4
-      errors: []
-      versions:
-        all: []
-        compatible: []
-        verified: 
-      dependencies:
-      - name: com.microsoft.mixedreality.toolkit.foundation
-        version: 2.6.0
-      - name: com.microsoft.mixedreality.worldlockingtools
-        version: 1.3.0
       resolvedDependencies:
-      - name: com.microsoft.mixedreality.toolkit.foundation
-        version: 2.6.0
-      - name: com.microsoft.mixedreality.toolkit.standardassets
-        version: 2.6.0
-      - name: com.unity.textmeshpro
-        version: 3.0.1
-      - name: com.unity.ugui
-        version: 1.0.0
       - name: com.unity.modules.ui
         version: 1.0.0
       - name: com.unity.modules.imgui
         version: 1.0.0
-      - name: com.microsoft.mixedreality.worldlockingtools
-        version: 1.3.0
-      keywords:
-      - mrtk
-      - reality
-      - mr
-      - mixed
-      - ar
-      - augmented
-      - vr
-      - virtual
-      - xr
-      - anchor
-      - hololens
-      - android
-      - ios
-      - xrsdk
-      registry:
-        id: 
-        name: 
-        url: 
-        scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 0
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.com/microsoft/MixedReality-WorldLockingTools-Unity.git
-        revision: 
-        path: 
-    - packageId: com.microsoft.mixedreality.worldlockingtools@file:C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.worldlockingtools-1.3.0.tgz
-      testable: 0
-      isDirectDependency: 1
-      version: 1.3.0
-      source: 6
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.worldlockingtools@824f62cd177d-1620256659245
-      assetPath: Packages/com.microsoft.mixedreality.worldlockingtools
-      name: com.microsoft.mixedreality.worldlockingtools
-      displayName: WLT Core
-      author:
-        name: Microsoft
-        email: 
-        url: 
-      category: 
-      type: 
-      description: 'World Locking Tools for Unity (WLT)
-
-
-        Lock AR virtual
-        space to physical space automatically and intuitively, without requiring
-        application management of anchors.
-
-        Preserve object relative layout,
-        while remaining perceptually stationary in the physical world.'
-      status: 4
-      errors: []
-      versions:
-        all: []
-        compatible: []
-        verified: 
-      dependencies: []
-      resolvedDependencies: []
-      keywords:
-      - mrtk
-      - reality
-      - mr
-      - mixed
-      - ar
-      - augmented
-      - vr
-      - virtual
-      - xr
-      - anchor
-      - worldlock
-      - hololens
-      - android
-      - ios
-      - xrsdk
-      registry:
-        id: 
-        name: 
-        url: 
-        scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 0
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.com/microsoft/MixedReality-WorldLockingTools-Unity.git
-        revision: 
-        path: 
-    - packageId: com.microsoft.mixedreality.input@file:C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.input-0.9.2006.tgz
-      testable: 0
-      isDirectDependency: 1
-      version: 0.9.2006
-      source: 6
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@4f7621772267-1620256658828
-      assetPath: Packages/com.microsoft.mixedreality.input
-      name: com.microsoft.mixedreality.input
-      displayName: Mixed Reality Input
-      author:
-        name: Microsoft
-        email: 
-        url: http://aka.ms/MR-Input
-      category: 
-      type: 
-      description: Provides access to additional inputs from Windows Mixed Reality
-        controllers.
-      status: 4
-      errors: []
-      versions:
-        all: []
-        compatible: []
-        verified: 
-      dependencies: []
-      resolvedDependencies: []
-      keywords:
-      - microsoft
-      - mixed
-      - reality
-      - motioncontroller
-      - controller
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      keywords: []
       registry:
         id: 
         name: 
@@ -3564,13 +3629,132 @@ m_PackageAssets:
         type: 
         url: 
         revision: 
+        path: 
+    - packageId: com.unity.ext.nunit@1.0.6
+      testable: 0
+      isDirectDependency: 0
+      version: 1.0.6
+      source: 1
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      assetPath: Packages/com.unity.ext.nunit
+      name: com.unity.ext.nunit
+      displayName: Custom NUnit
+      author:
+        name: 
+        email: 
+        url: 
+      category: Libraries
+      type: 
+      description: Custom version of the nunit package build to work with Unity.
+        Used by the Unity Test Framework.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
+        - 1.0.0
+        - 1.0.5
+        - 1.0.6
+        compatible:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
+        - 1.0.0
+        - 1.0.5
+        - 1.0.6
+        verified: 1.0.6
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - nunit
+      - unittest
+      - test
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637429759280000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
+        revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
+        path: 
+    - packageId: com.unity.settings-manager@1.0.3
+      testable: 0
+      isDirectDependency: 0
+      version: 1.0.3
+      source: 1
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.unity.settings-manager@1.0.3
+      assetPath: Packages/com.unity.settings-manager
+      name: com.unity.settings-manager
+      displayName: Settings Manager
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: A framework for making any serializable field a setting, complete
+        with a pre-built settings interface.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.0-preview.4
+        - 0.1.0-preview.8
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        compatible:
+        - 0.1.0-preview.4
+        - 0.1.0-preview.8
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        verified: 1.0.3
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637300096300000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
+        revision: 473664ccba1496294b741cf169740a5d54b3d0b6
         path: 
     - packageId: com.unity.xr.openxr@1.0.2
       testable: 0
       isDirectDependency: 0
       version: 1.0.2
       source: 1
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.unity.xr.openxr@1.0.2
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.unity.xr.openxr@1.0.2
       assetPath: Packages/com.unity.xr.openxr
       name: com.unity.xr.openxr
       displayName: OpenXR Plugin
@@ -3594,13 +3778,15 @@ m_PackageAssets:
         - 1.0.2
         - 1.0.3
         - 1.1.1
+        - 1.2.0
         compatible:
         - 0.1.1-preview.1
         - 0.1.2-preview.2
         - 1.0.2
         - 1.0.3
         - 1.1.1
-        verified: 1.0.3
+        - 1.2.0
+        verified: 1.1.1
       dependencies:
       - name: com.unity.xr.management
         version: 4.0.1
@@ -3652,12 +3838,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/xr.sdk.openxr.git
         revision: 297b6c200ee5dc8d53e77c5d931f18bcaa3ce556
         path: 
-    - packageId: com.unity.xr.arsubsystems@4.1.5
+    - packageId: com.unity.xr.arsubsystems@4.1.7
       testable: 0
       isDirectDependency: 0
-      version: 4.1.5
+      version: 4.1.7
       source: 1
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.unity.xr.arsubsystems@4.1.5
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.unity.xr.arsubsystems@4.1.7
       assetPath: Packages/com.unity.xr.arsubsystems
       name: com.unity.xr.arsubsystems
       displayName: AR Subsystems
@@ -3728,31 +3914,15 @@ m_PackageAssets:
         - 4.2.0-pre.3
         - 4.2.0-pre.4
         - 4.2.0-pre.5
+        - 4.2.0-pre.7
         compatible:
-        - 4.0.8
-        - 4.0.9
-        - 4.0.10
-        - 4.0.12
-        - 4.1.0-preview.1
-        - 4.1.0-preview.2
-        - 4.1.0-preview.3
-        - 4.1.0-preview.5
-        - 4.1.0-preview.6
-        - 4.1.0-preview.7
-        - 4.1.0-preview.9
-        - 4.1.0-preview.10
-        - 4.1.0-preview.11
-        - 4.1.0-preview.12
-        - 4.1.0-preview.13
-        - 4.1.1
-        - 4.1.3
-        - 4.1.5
         - 4.1.7
         - 4.2.0-pre.2
         - 4.2.0-pre.3
         - 4.2.0-pre.4
         - 4.2.0-pre.5
-        verified: 4.0.12
+        - 4.2.0-pre.7
+        verified: 4.1.7
       dependencies:
       - name: com.unity.subsystemregistration
         version: 1.1.0
@@ -3779,250 +3949,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637486684780000000
+      datePublishedTicks: 637535033380000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
-        revision: 696da08cb78f76847add0b73418055285093cca0
-        path: 
-    - packageId: com.unity.modules.subsystems@1.0.0
-      testable: 0
-      isDirectDependency: 0
-      version: 1.0.0
-      source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
-      assetPath: Packages/com.unity.modules.subsystems
-      name: com.unity.modules.subsystems
-      displayName: Subsystems
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: module
-      description: 'The Subsystem module contains the definitions and runtime support
-        for general subsystems in Unity. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.SubsystemsModule.html'
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 1.0.0
-        compatible:
-        - 1.0.0
-        verified: 1.0.0
-      dependencies:
-      - name: com.unity.modules.jsonserialize
-        version: 1.0.0
-      resolvedDependencies:
-      - name: com.unity.modules.jsonserialize
-        version: 1.0.0
-      keywords: []
-      registry:
-        id: 
-        name: 
-        url: 
-        scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 0
-      documentationUrl: 
-      hasRepository: 0
-      repository:
-        type: 
-        url: 
-        revision: 
-        path: 
-    - packageId: com.unity.modules.uielementsnative@1.0.0
-      testable: 0
-      isDirectDependency: 0
-      version: 1.0.0
-      source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielementsnative
-      assetPath: Packages/com.unity.modules.uielementsnative
-      name: com.unity.modules.uielementsnative
-      displayName: UIElements Native
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: module
-      description: 
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 1.0.0
-        compatible:
-        - 1.0.0
-        verified: 1.0.0
-      dependencies:
-      - name: com.unity.modules.ui
-        version: 1.0.0
-      - name: com.unity.modules.imgui
-        version: 1.0.0
-      - name: com.unity.modules.jsonserialize
-        version: 1.0.0
-      resolvedDependencies:
-      - name: com.unity.modules.ui
-        version: 1.0.0
-      - name: com.unity.modules.imgui
-        version: 1.0.0
-      - name: com.unity.modules.jsonserialize
-        version: 1.0.0
-      keywords: []
-      registry:
-        id: 
-        name: 
-        url: 
-        scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 0
-      documentationUrl: 
-      hasRepository: 0
-      repository:
-        type: 
-        url: 
-        revision: 
-        path: 
-    - packageId: com.unity.ext.nunit@1.0.6
-      testable: 0
-      isDirectDependency: 0
-      version: 1.0.6
-      source: 1
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.unity.ext.nunit@1.0.6
-      assetPath: Packages/com.unity.ext.nunit
-      name: com.unity.ext.nunit
-      displayName: Custom NUnit
-      author:
-        name: 
-        email: 
-        url: 
-      category: Libraries
-      type: 
-      description: Custom version of the nunit package build to work with Unity.
-        Used by the Unity Test Framework.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 0.1.5-preview
-        - 0.1.6-preview
-        - 0.1.9-preview
-        - 1.0.0
-        - 1.0.5
-        - 1.0.6
-        compatible:
-        - 0.1.5-preview
-        - 0.1.6-preview
-        - 0.1.9-preview
-        - 1.0.0
-        - 1.0.5
-        - 1.0.6
-        verified: 1.0.6
-      dependencies: []
-      resolvedDependencies: []
-      keywords:
-      - nunit
-      - unittest
-      - test
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637429759280000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
-        revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
-        path: 
-    - packageId: com.unity.settings-manager@1.0.3
-      testable: 0
-      isDirectDependency: 0
-      version: 1.0.3
-      source: 1
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.unity.settings-manager@1.0.3
-      assetPath: Packages/com.unity.settings-manager
-      name: com.unity.settings-manager
-      displayName: Settings Manager
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: A framework for making any serializable field a setting, complete
-        with a pre-built settings interface.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 0.1.0-preview.4
-        - 0.1.0-preview.8
-        - 1.0.0
-        - 1.0.1
-        - 1.0.2
-        - 1.0.3
-        compatible:
-        - 0.1.0-preview.4
-        - 0.1.0-preview.8
-        - 1.0.0
-        - 1.0.1
-        - 1.0.2
-        - 1.0.3
-        verified: 1.0.3
-      dependencies: []
-      resolvedDependencies: []
-      keywords: []
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637300096300000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
-        revision: 473664ccba1496294b741cf169740a5d54b3d0b6
+        revision: b5352c36faf68b8ffc1bbddaa0f204f75d4ac5fb
         path: 
     - packageId: com.unity.subsystemregistration@1.1.0
       testable: 0
       isDirectDependency: 0
       version: 1.1.0
       source: 1
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.unity.subsystemregistration@1.1.0
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.unity.subsystemregistration@1.1.0
       assetPath: Packages/com.unity.subsystemregistration
       name: com.unity.subsystemregistration
       displayName: Subsystem Registration
@@ -4084,7 +4024,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.0.1
       source: 1
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.unity.xr.management@4.0.1
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.unity.xr.management@4.0.1
       assetPath: Packages/com.unity.xr.management
       name: com.unity.xr.management
       displayName: XR Plugin Management
@@ -4141,6 +4081,8 @@ m_PackageAssets:
         - 4.0.0-pre.2
         - 4.0.0-pre.3
         - 4.0.1
+        - 4.0.3
+        - 4.0.5
         compatible:
         - 3.2.13
         - 3.2.15
@@ -4150,7 +4092,9 @@ m_PackageAssets:
         - 4.0.0-pre.2
         - 4.0.0-pre.3
         - 4.0.1
-        verified: 4.0.1
+        - 4.0.3
+        - 4.0.5
+        verified: 4.0.5
       dependencies:
       - name: com.unity.modules.subsystems
         version: 1.0.0
@@ -4210,7 +4154,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 2.1.7
       source: 1
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.7
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.7
       assetPath: Packages/com.unity.xr.legacyinputhelpers
       name: com.unity.xr.legacyinputhelpers
       displayName: XR Legacy Input Helpers
@@ -4302,7 +4246,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.2
       source: 1
-      resolvedPath: C:\Users\velden.bergonia\Documents\VB-VRITM\Library\PackageCache\com.unity.inputsystem@1.0.2
+      resolvedPath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.unity.inputsystem@1.0.2
       assetPath: Packages/com.unity.inputsystem
       name: com.unity.inputsystem
       displayName: Input System
@@ -4342,6 +4286,7 @@ m_PackageAssets:
         - 1.0.0
         - 1.0.1
         - 1.0.2
+        - 1.1.0-pre.5
         - 1.1.0-preview.1
         - 1.1.0-preview.2
         - 1.1.0-preview.3
@@ -4370,6 +4315,7 @@ m_PackageAssets:
         - 1.0.0
         - 1.0.1
         - 1.0.2
+        - 1.1.0-pre.5
         - 1.1.0-preview.1
         - 1.1.0-preview.2
         - 1.1.0-preview.3
@@ -4407,201 +4353,187 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus:
-    - m_FilePath: C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.6.0.tgz/package.json
+    - m_FilePath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.input-0.9.2006.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.6.0.tgz
+    - m_FilePath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.input-0.9.2006.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637558534590979302
-      m_Hash: 2014296066
-    - m_FilePath: C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.6.0.tgz/package.json
-      m_PathExists: 0
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 0
-      m_Hash: 0
-    - m_FilePath: C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.6.0.tgz
-      m_PathExists: 1
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 637558534591059282
-      m_Hash: 3172118034
-    - m_FilePath: C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.6.0.tgz/package.json
-      m_PathExists: 0
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 0
-      m_Hash: 0
-    - m_FilePath: C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.6.0.tgz
-      m_PathExists: 1
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 637558534591459243
-      m_Hash: 3582901798
-    - m_FilePath: C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.gpustats-1.0.3.tgz/package.json
-      m_PathExists: 0
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 0
-      m_Hash: 0
-    - m_FilePath: C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.gpustats-1.0.3.tgz
-      m_PathExists: 1
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 637558534591479239
-      m_Hash: 2370927092
-    - m_FilePath: C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.planefinding-1.0.0.tgz/package.json
-      m_PathExists: 0
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 0
-      m_Hash: 0
-    - m_FilePath: C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.planefinding-1.0.0.tgz
-      m_PathExists: 1
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 637558534591489235
-      m_Hash: 2612967325
-    - m_FilePath: C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.6.0.tgz/package.json
-      m_PathExists: 0
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 0
-      m_Hash: 0
-    - m_FilePath: C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.6.0.tgz
-      m_PathExists: 1
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 637558534591699213
-      m_Hash: 1075210711
-    - m_FilePath: C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.testutilities-2.6.0.tgz/package.json
-      m_PathExists: 0
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 0
-      m_Hash: 0
-    - m_FilePath: C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.testutilities-2.6.0.tgz
-      m_PathExists: 1
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 637558534591709208
-      m_Hash: 1828607506
-    - m_FilePath: C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.tools-2.6.0.tgz/package.json
-      m_PathExists: 0
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 0
-      m_Hash: 0
-    - m_FilePath: C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.tools-2.6.0.tgz
-      m_PathExists: 1
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 637558534591789192
-      m_Hash: 958761605
-    - m_FilePath: C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.openxr-0.1.4.tgz/package.json
-      m_PathExists: 0
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 0
-      m_Hash: 0
-    - m_FilePath: C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.openxr-0.1.4.tgz
-      m_PathExists: 1
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 637558534588709586
-      m_Hash: 3314302478
-    - m_FilePath: C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.sceneunderstanding-0.6.0.tgz/package.json
-      m_PathExists: 0
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 0
-      m_Hash: 0
-    - m_FilePath: C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.sceneunderstanding-0.6.0.tgz
-      m_PathExists: 1
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 637558534588769570
-      m_Hash: 1930125031
-    - m_FilePath: C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.spatialaudio.spatializer.unity-1.0.176.tgz/package.json
-      m_PathExists: 0
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 0
-      m_Hash: 0
-    - m_FilePath: C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.spatialaudio.spatializer.unity-1.0.176.tgz
-      m_PathExists: 1
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 637558534592479299
-      m_Hash: 2858748555
-    - m_FilePath: C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.worldlockingsamples-1.3.0.tgz/package.json
-      m_PathExists: 0
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 0
-      m_Hash: 0
-    - m_FilePath: C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.worldlockingsamples-1.3.0.tgz
-      m_PathExists: 1
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 637558534591809194
-      m_Hash: 2990475561
-    - m_FilePath: C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.worldlockingtools-1.3.0.tgz/package.json
-      m_PathExists: 0
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 0
-      m_Hash: 0
-    - m_FilePath: C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.worldlockingtools-1.3.0.tgz
-      m_PathExists: 1
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 637558534592449129
-      m_Hash: 3956129083
-    - m_FilePath: C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.input-0.9.2006.tgz/package.json
-      m_PathExists: 0
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 0
-      m_Hash: 0
-    - m_FilePath: C:\Users\velden.bergonia\Documents\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.input-0.9.2006.tgz
-      m_PathExists: 1
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 637558534588279647
+        ticks: 637570627738040620
       m_Hash: 2730948826
-m_ProjectPath: C:/Users/velden.bergonia/Documents/VB-VRITM/Packages
-m_EditorVersion: 2020.3.0f1 (c7b5465681fb)
+    - m_FilePath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.openxr-0.1.4.tgz/package.json
+      m_PathExists: 0
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 0
+      m_Hash: 0
+    - m_FilePath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.openxr-0.1.4.tgz
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 637570627738470552
+      m_Hash: 3314302478
+    - m_FilePath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.6.0.tgz/package.json
+      m_PathExists: 0
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 0
+      m_Hash: 0
+    - m_FilePath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.6.0.tgz
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 637570627741140082
+      m_Hash: 2014296066
+    - m_FilePath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.6.0.tgz/package.json
+      m_PathExists: 0
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 0
+      m_Hash: 0
+    - m_FilePath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.6.0.tgz
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 637570627741250060
+      m_Hash: 3172118034
+    - m_FilePath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.6.0.tgz/package.json
+      m_PathExists: 0
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 0
+      m_Hash: 0
+    - m_FilePath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.6.0.tgz
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 637570627741669988
+      m_Hash: 3582901798
+    - m_FilePath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.gpustats-1.0.3.tgz/package.json
+      m_PathExists: 0
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 0
+      m_Hash: 0
+    - m_FilePath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.gpustats-1.0.3.tgz
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 637570627741689984
+      m_Hash: 2370927092
+    - m_FilePath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.planefinding-1.0.0.tgz/package.json
+      m_PathExists: 0
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 0
+      m_Hash: 0
+    - m_FilePath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.planefinding-1.0.0.tgz
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 637570627741699980
+      m_Hash: 2612967325
+    - m_FilePath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.6.0.tgz/package.json
+      m_PathExists: 0
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 0
+      m_Hash: 0
+    - m_FilePath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.6.0.tgz
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 637570627741929947
+      m_Hash: 1075210711
+    - m_FilePath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.testutilities-2.6.0.tgz/package.json
+      m_PathExists: 0
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 0
+      m_Hash: 0
+    - m_FilePath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.testutilities-2.6.0.tgz
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 637570627741940002
+      m_Hash: 1828607506
+    - m_FilePath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.tools-2.6.0.tgz/package.json
+      m_PathExists: 0
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 0
+      m_Hash: 0
+    - m_FilePath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.toolkit.tools-2.6.0.tgz
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 637570627742030013
+      m_Hash: 958761605
+    - m_FilePath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.worldlockingsamples-1.3.0.tgz/package.json
+      m_PathExists: 0
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 0
+      m_Hash: 0
+    - m_FilePath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.worldlockingsamples-1.3.0.tgz
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 637570627742049919
+      m_Hash: 2990475561
+    - m_FilePath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.worldlockingtools-1.3.0.tgz/package.json
+      m_PathExists: 0
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 0
+      m_Hash: 0
+    - m_FilePath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.mixedreality.worldlockingtools-1.3.0.tgz
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 637570627742689798
+      m_Hash: 3956129083
+    - m_FilePath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.spatialaudio.spatializer.unity-1.0.176.tgz/package.json
+      m_PathExists: 0
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 0
+      m_Hash: 0
+    - m_FilePath: C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Packages\MixedReality\com.microsoft.spatialaudio.spatializer.unity-1.0.176.tgz
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 637570627742709804
+      m_Hash: 2858748555
+m_ProjectPath: C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Packages
+m_EditorVersion: 2020.3.6f1 (338bb68529b2)
