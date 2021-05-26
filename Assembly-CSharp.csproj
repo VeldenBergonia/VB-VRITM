@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\Gun.cs" />
      <Compile Include="Assets\Scripts\MouseMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\Laser.cs" />
      <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
      <None Include="Assets\MRTK\Shaders\Text3DShader.shader" />
@@ -633,8 +634,8 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
- <Reference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus">
- <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll</HintPath>
+ <Reference Include="Microsoft.MixedReality.Toolkit.StandardAssets.Editor">
+ <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem">
  <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Services.InputSystem.dll</HintPath>
@@ -903,11 +904,21 @@
  <Reference Include="Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors">
  <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll</HintPath>
  </Reference>
- <Reference Include="Microsoft.MixedReality.Toolkit.StandardAssets.Editor">
- <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll</HintPath>
+ <Reference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus">
+ <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="NavMeshComponents.csproj">
+      <Project>{A8DCCE27-2E49-ECD1-DE81-D2A2B09A3EC9}</Project>
+      <Name>NavMeshComponents</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponentsEditor.csproj">
+      <Project>{1199AA17-CBD8-343C-385F-D2B4434A59A3}</Project>
+      <Name>NavMeshComponentsEditor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
