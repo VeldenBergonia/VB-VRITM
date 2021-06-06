@@ -634,11 +634,15 @@ PlayerSettings:
     a: 1}
   metroSplashScreenUseBackgroundColor: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   platformCapabilities:
     WindowsStoreApps:
       SpatialPerception: True
       InternetClient: True
       Microphone: True
+=======
+  platformCapabilities: {}
+>>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk
 =======
   platformCapabilities: {}
 >>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk

@@ -20,7 +20,11 @@ MonoBehaviour:
     height: 997
   m_ShowMode: 4
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Title: Project
+=======
+  m_Title: Hierarchy
+>>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk
 =======
   m_Title: Hierarchy
 >>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk
@@ -52,7 +56,11 @@ MonoBehaviour:
   m_MaxSize: {x: 14002, y: 18063}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 166
+=======
+  controlID: 180
+>>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk
 =======
   controlID: 180
 >>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk
@@ -107,7 +115,11 @@ MonoBehaviour:
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 77
+=======
+  controlID: 184
+>>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk
 =======
   controlID: 184
 >>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk
@@ -136,7 +148,11 @@ MonoBehaviour:
   m_MaxSize: {x: 14002, y: 18063}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 167
+=======
+  controlID: 181
+>>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk
 =======
   controlID: 181
 >>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk
@@ -168,8 +184,13 @@ MonoBehaviour:
   - {fileID: 16}
   - {fileID: 15}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Selected: 2
   m_LastSelected: 0
+=======
+  m_Selected: 0
+  m_LastSelected: 2
+>>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk
 =======
   m_Selected: 0
   m_LastSelected: 2
@@ -326,7 +347,11 @@ MonoBehaviour:
   m_MaxSize: {x: 10001, y: 18063}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 255
+=======
+  controlID: 182
+>>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk
 =======
   controlID: 182
 >>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk
@@ -355,7 +380,11 @@ MonoBehaviour:
   m_MaxSize: {x: 8003, y: 8042}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 76
+=======
+  controlID: 183
+>>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk
 =======
   controlID: 183
 >>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk
@@ -582,7 +611,11 @@ MonoBehaviour:
     m_SearchArea: 1
     m_Folders:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Scenes
+=======
+    - Assets/Materials
+>>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk
 =======
     - Assets/Materials
 >>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk
@@ -592,7 +625,11 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Assets/Scenes
+=======
+  - Assets/Materials
+>>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk
 =======
   - Assets/Materials
 >>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk
@@ -603,9 +640,15 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedIDs: 706b0000
     m_LastClickedID: 27504
     m_ExpandedIDs: 000000003a6a00003c6a00003e6a0000406a0000426a000000ca9a3b
+=======
+    m_SelectedIDs: e4690000
+    m_LastClickedID: 27108
+    m_ExpandedIDs: 000000003e6900004069000042690000446900004669000000ca9a3b
+>>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk
 =======
     m_SelectedIDs: e4690000
     m_LastClickedID: 27108
@@ -639,7 +682,11 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 000000003a6a00003c6a00003e6a0000406a0000426a0000
+=======
+    m_ExpandedIDs: 000000003e69000040690000426900004469000046690000
+>>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk
 =======
     m_ExpandedIDs: 000000003e69000040690000426900004469000046690000
 >>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk
@@ -766,9 +813,15 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_SelectedIDs: 7e6b0000
       m_LastClickedID: 0
       m_ExpandedIDs: 6ef7ffff96f7ffff0afbffff
+=======
+      m_SelectedIDs: 58670000
+      m_LastClickedID: 26456
+      m_ExpandedIDs: 0afbffffa4650000aa660000
+>>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk
 =======
       m_SelectedIDs: 58670000
       m_LastClickedID: 26456
@@ -835,9 +888,15 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -14.76676, y: -38.23664, z: -35.810352}
     speed: 2
     m_Value: {x: -14.76676, y: -38.23664, z: -35.810352}
+=======
+    m_Target: {x: -2.1886473, y: -8.309917, z: 76.36957}
+    speed: 2
+    m_Value: {x: -2.1886473, y: -8.309917, z: 76.36957}
+>>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk
 =======
     m_Target: {x: -2.1886473, y: -8.309917, z: 76.36957}
     speed: 2
@@ -890,9 +949,15 @@ MonoBehaviour:
     m_gridOpacity: 0.5
   m_Rotation:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.056519903, y: 0.9386455, z: -0.28253275, w: 0.19053383}
     speed: 2
     m_Value: {x: 0.056519903, y: 0.93864554, z: -0.28253278, w: 0.19053383}
+=======
+    m_Target: {x: 0.076163664, y: -0.014119576, z: 0.0000307289, w: 0.9971838}
+    speed: 2
+    m_Value: {x: 0.077644765, y: -0.014116861, z: 0.00005191439, w: 0.9968812}
+>>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk
 =======
     m_Target: {x: 0.076163664, y: -0.014119576, z: 0.0000307289, w: 0.9971838}
     speed: 2
@@ -974,11 +1039,14 @@ MonoBehaviour:
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HBaseRangeMin: -545.5
     m_HBaseRangeMax: 545.5
     m_VBaseRangeMin: -289
     m_VBaseRangeMax: 289
 =======
+=======
+>>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk
     m_HBaseRangeMin: -591.5
     m_HBaseRangeMax: 591.5
     m_VBaseRangeMin: -278.5
@@ -1001,17 +1069,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
       y: 0
       width: 1091
       height: 578
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 545.5, y: 289}
 =======
+=======
+>>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk
       y: 21
       width: 1183
       height: 557
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 591.5, y: 278.5}
+<<<<<<< HEAD
+>>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk
+=======
 >>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -1020,11 +1094,14 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       x: -545.5
       y: -289
       width: 1091
       height: 578
 =======
+=======
+>>>>>>> parent of 88e0e3d4... mrmrmrmrmrmtkktktktk
       x: -591.5
       y: -278.5
       width: 1183
