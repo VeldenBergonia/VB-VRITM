@@ -20,15 +20,16 @@ MonoBehaviour:
     reference: Microsoft.MixedReality.Toolkit.CameraSystem.MixedRealityCameraSystem,
       Microsoft.MixedReality.Toolkit.Services.CameraSystem
   enableInputSystem: 1
-  inputSystemProfile: {fileID: 11400000, guid: 76f1da3b223c5a6408f838f1d1ae5d42, type: 2}
+  inputSystemProfile: {fileID: 11400000, guid: ad2080e8e71c35f4e8bcde94fa68f098, type: 2}
   inputSystemType:
     reference: Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSystem, Microsoft.MixedReality.Toolkit.Services.InputSystem
   enableBoundarySystem: 1
   boundarySystemType:
-    reference: Microsoft.MixedReality.Toolkit.XRSDK.XRSDKBoundarySystem, Microsoft.MixedReality.Toolkit.Providers.XRSDK
-  boundaryVisualizationProfile: {fileID: 11400000, guid: 2fb9ce58e940387499508c9826b5033a,
+    reference: Microsoft.MixedReality.Toolkit.Boundary.MixedRealityBoundarySystem,
+      Microsoft.MixedReality.Toolkit.Services.BoundarySystem
+  boundaryVisualizationProfile: {fileID: 11400000, guid: 6d28cce596b44bd3897ca86f8b24e076,
     type: 2}
-  enableTeleportSystem: 0
+  enableTeleportSystem: 1
   teleportSystemType:
     reference: Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem,
       Microsoft.MixedReality.Toolkit.Services.TeleportSystem
