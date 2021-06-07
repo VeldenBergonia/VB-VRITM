@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637577514948446555
-    m_Hash: 3453424667
+      ticks: 637586190254821176
+    m_Hash: 3532727175
   m_LockFileStatus:
     m_FilePath: C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637577514948566550
-    m_Hash: 3676530802
+      ticks: 637586190254821176
+    m_Hash: 2605383463
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -1106,6 +1106,7 @@ m_PackageAssets:
         - 2.0.5
         - 2.0.7
         - 2.0.8
+        - 2.0.9
         compatible:
         - 1.0.2
         - 1.0.3
@@ -1120,7 +1121,8 @@ m_PackageAssets:
         - 2.0.5
         - 2.0.7
         - 2.0.8
-        verified: 2.0.8
+        - 2.0.9
+        verified: 2.0.9
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.9
@@ -3872,6 +3874,7 @@ m_PackageAssets:
         - 1.0.3
         - 1.1.1
         - 1.2.0
+        - 1.2.2
         compatible:
         - 0.1.1-preview.1
         - 0.1.2-preview.2
@@ -3879,6 +3882,7 @@ m_PackageAssets:
         - 1.0.3
         - 1.1.1
         - 1.2.0
+        - 1.2.2
         verified: 1.1.1
       dependencies:
       - name: com.unity.xr.management
