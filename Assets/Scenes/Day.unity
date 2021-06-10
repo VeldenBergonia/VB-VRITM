@@ -30561,6 +30561,9 @@ NavMeshAgent:
   m_Radius: 0.5000001
   m_Speed: 3.5
   m_Acceleration: 8
+<<<<<<< HEAD
+>>>>>>> parent of 6ace80d6... adjus
+=======
 >>>>>>> parent of 6ace80d6... adjus
   avoidancePriority: 50
   m_AngularSpeed: 120
