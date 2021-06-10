@@ -49,6 +49,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\LaserV2.cs" />
      <Compile Include="Assets\Scripts\Gun.cs" />
+     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\MouseMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
@@ -721,9 +722,6 @@
  <Reference Include="Microsoft.SpatialAudio.Spatializer.Editor">
  <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Microsoft.SpatialAudio.Spatializer.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.XR.InteractionSubsystems">
- <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Unity.XR.InteractionSubsystems.dll</HintPath>
- </Reference>
  <Reference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive">
  <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll</HintPath>
  </Reference>
@@ -748,9 +746,6 @@
  <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding">
  <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll</HintPath>
  </Reference>
- <Reference Include="Unity.XR.WindowsMixedReality.Editor">
- <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Unity.XR.WindowsMixedReality.Editor.dll</HintPath>
- </Reference>
  <Reference Include="Microsoft.MixedReality.Toolkit.Extensions.Tracking">
  <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Extensions.Tracking.dll</HintPath>
  </Reference>
@@ -772,11 +767,11 @@
  <Reference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive">
  <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll</HintPath>
  </Reference>
- <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared">
- <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll</HintPath>
- </Reference>
  <Reference Include="Microsoft.MixedReality.Toolkit.Providers.LeapMotion">
  <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared">
+ <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll</HintPath>
  </Reference>
  <Reference Include="Microsoft.MixedReality.Toolkit.SDK">
  <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.SDK.dll</HintPath>
@@ -789,9 +784,6 @@
  </Reference>
  <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput">
  <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.WindowsMixedReality">
- <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Unity.XR.WindowsMixedReality.dll</HintPath>
  </Reference>
  <Reference Include="Microsoft.MixedReality.Toolkit.Services.CameraSystem">
  <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll</HintPath>
