@@ -55,15 +55,36 @@
      <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\Laser.cs" />
      <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\MRTK\Shaders\Text3DShader.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\MRTK\Shaders\InstancedColored.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\MRTK\Shaders\ChannelPacker.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <None Include="Assets\MRTK\Shaders\InvisibleShader.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\MRTK\Shaders\MixedRealityStandard.shader" />
      <None Include="Assets\MRTK\Shaders\MixedRealityTextMeshPro.shader" />
      <None Include="Assets\MRTK\Shaders\MRTK_Wireframe.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\MRTK\Shaders\DepthBufferPostProcess.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\MixedRealityToolkit.Generated\link.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
      <None Include="Assets\MRTK\Shaders\MixedRealityShaderUtils.cginc" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -722,6 +743,9 @@
  <Reference Include="Microsoft.SpatialAudio.Spatializer.Editor">
  <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Microsoft.SpatialAudio.Spatializer.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.XR.InteractionSubsystems">
+ <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Unity.XR.InteractionSubsystems.dll</HintPath>
+ </Reference>
  <Reference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive">
  <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll</HintPath>
  </Reference>
@@ -746,6 +770,9 @@
  <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding">
  <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.XR.WindowsMixedReality.Editor">
+ <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Unity.XR.WindowsMixedReality.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Microsoft.MixedReality.Toolkit.Extensions.Tracking">
  <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Extensions.Tracking.dll</HintPath>
  </Reference>
@@ -767,11 +794,11 @@
  <Reference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive">
  <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll</HintPath>
  </Reference>
- <Reference Include="Microsoft.MixedReality.Toolkit.Providers.LeapMotion">
- <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll</HintPath>
- </Reference>
  <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared">
  <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.MixedReality.Toolkit.Providers.LeapMotion">
+ <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll</HintPath>
  </Reference>
  <Reference Include="Microsoft.MixedReality.Toolkit.SDK">
  <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.SDK.dll</HintPath>
@@ -784,6 +811,9 @@
  </Reference>
  <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput">
  <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.WindowsMixedReality">
+ <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Unity.XR.WindowsMixedReality.dll</HintPath>
  </Reference>
  <Reference Include="Microsoft.MixedReality.Toolkit.Services.CameraSystem">
  <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll</HintPath>
