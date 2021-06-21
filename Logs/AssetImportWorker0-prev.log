@@ -15,12 +15,12 @@ C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59704
+56349
 Successfully changed project path to: C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM
 C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 126.92 ms, found 18 plugins.
-Preloading 2 native plugins for Editor in 4.43 ms.
+Refreshing native plugins compatible for Editor in 164.75 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 3.53 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Assets
@@ -35,23 +35,23 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56624
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001729 seconds.
+Registered in 0.004308 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 75.92 ms, found 18 plugins.
-Preloading 2 native plugins for Editor in 0.17 ms.
+Refreshing native plugins compatible for Editor in 73.40 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.782 seconds
+- Completed reload, in  2.739 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.023007 seconds.
+Registered in 0.025231 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 74.00 ms, found 18 plugins.
-Preloading 2 native plugins for Editor in 0.17 ms.
+Refreshing native plugins compatible for Editor in 70.19 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
 Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
@@ -66,34 +66,1182 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [XR] Error loading subsystem: Display (1) (header mismatch?)
 [XR] [XR Input Provider]: RegisterLifecycleProvider.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.293 seconds
+- Completed reload, in  3.924 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.48 ms, found 18 plugins.
-Preloading 2 native plugins for Editor in 0.15 ms.
+Refreshing native plugins compatible for Editor in 3.27 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.20 ms.
 Unloading 3989 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 361.9 MB.
 System memory in use after: 361.2 MB.
 
 Unloading 796 unused Assets to reduce memory usage. Loaded Objects now: 4293.
-Total: 5.364000 ms (FindLiveObjects: 0.487000 ms CreateObjectMapping: 0.288800 ms MarkObjects: 3.483600 ms  DeleteObjects: 1.103100 ms)
+Total: 11.094000 ms (FindLiveObjects: 3.154300 ms CreateObjectMapping: 0.225900 ms MarkObjects: 3.285300 ms  DeleteObjects: 4.425400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '024c40aef6a979af89caf43e345d8ace') in 0.129904 seconds
-  Import took 0.137427 seconds .
+  path: Assets/Scripts/Gun.cs
+  artifactKey: Guid(dad2923b1955c8d459a990a41b60ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gun.cs using Guid(dad2923b1955c8d459a990a41b60ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a6b76ebd3556526d07359d7a5699256') in 0.256133 seconds
+  Import took 0.298434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.640598 seconds.
+  path: Assets/Scripts/AmmoCount.cs
+  artifactKey: Guid(89430e3091c790448b08e38067b67e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AmmoCount.cs using Guid(89430e3091c790448b08e38067b67e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a83329780d3d02b62553d1298145038') in 0.011404 seconds
+  Import took 0.051192 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011009 seconds.
+Registered in 0.024711 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 18 plugins.
+Refreshing native plugins compatible for Editor in 1.78 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.344 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.26 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.33 ms.
+Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 344.7 MB.
+System memory in use after: 344.4 MB.
+
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4298.
+Total: 5.237900 ms (FindLiveObjects: 0.502900 ms CreateObjectMapping: 0.213800 ms MarkObjects: 3.923300 ms  DeleteObjects: 0.595700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 598.645499 seconds.
+  path: Assets/Scripts/AmmoCount.cs
+  artifactKey: Guid(89430e3091c790448b08e38067b67e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AmmoCount.cs using Guid(89430e3091c790448b08e38067b67e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36a12230ec77a66c75f1ff561877971') in 0.065796 seconds
+  Import took 0.098434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1282.398718 seconds.
+  path: Assets/Scripts/Gun.cs
+  artifactKey: Guid(dad2923b1955c8d459a990a41b60ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gun.cs using Guid(dad2923b1955c8d459a990a41b60ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea7664a49cb157146940b35b621a1bc') in 0.016318 seconds
+  Import took 0.023609 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.798237 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.052 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.26 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.22 ms.
+Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 344.8 MB.
+System memory in use after: 344.5 MB.
+
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4302.
+Total: 4.041000 ms (FindLiveObjects: 0.656100 ms CreateObjectMapping: 0.300100 ms MarkObjects: 2.664600 ms  DeleteObjects: 0.419100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011180 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.948 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 344.8 MB.
+System memory in use after: 344.5 MB.
+
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4306.
+Total: 4.831600 ms (FindLiveObjects: 0.559100 ms CreateObjectMapping: 0.328800 ms MarkObjects: 3.529900 ms  DeleteObjects: 0.412200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.859711 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112762143021ece545466c2dc167aa37') in 0.162318 seconds
+  Import took 0.170475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.952367 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26778c313a766d8d3a352a87f3ccb78') in 0.028160 seconds
+  Import took 0.044958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.575395 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd90f1869c7bc7e6a409ba707173f05') in 0.036133 seconds
+  Import took 0.043104 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010884 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.051 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 345.0 MB.
+System memory in use after: 344.7 MB.
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 4316.
+Total: 5.960400 ms (FindLiveObjects: 0.784100 ms CreateObjectMapping: 0.455500 ms MarkObjects: 3.861900 ms  DeleteObjects: 0.856600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011049 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.09 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.991 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.23 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 345.0 MB.
+System memory in use after: 344.7 MB.
+
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4320.
+Total: 12.956900 ms (FindLiveObjects: 1.137200 ms CreateObjectMapping: 0.780700 ms MarkObjects: 9.825200 ms  DeleteObjects: 1.208100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011305 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.952 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.18 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 345.0 MB.
+System memory in use after: 344.7 MB.
+
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4324.
+Total: 4.254100 ms (FindLiveObjects: 0.567700 ms CreateObjectMapping: 0.230500 ms MarkObjects: 2.710000 ms  DeleteObjects: 0.744500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011038 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.109 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 345.0 MB.
+System memory in use after: 344.7 MB.
+
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4328.
+Total: 5.189000 ms (FindLiveObjects: 0.850200 ms CreateObjectMapping: 0.466000 ms MarkObjects: 3.415100 ms  DeleteObjects: 0.456400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011279 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.001 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 345.1 MB.
+System memory in use after: 344.8 MB.
+
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4332.
+Total: 9.851000 ms (FindLiveObjects: 0.894600 ms CreateObjectMapping: 0.616300 ms MarkObjects: 7.378500 ms  DeleteObjects: 0.958200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010963 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.085 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.48 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 345.1 MB.
+System memory in use after: 344.8 MB.
+
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4336.
+Total: 3.519900 ms (FindLiveObjects: 0.385900 ms CreateObjectMapping: 0.173500 ms MarkObjects: 2.538800 ms  DeleteObjects: 0.420600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010986 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.981 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.17 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 345.1 MB.
+System memory in use after: 344.8 MB.
+
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4340.
+Total: 3.788800 ms (FindLiveObjects: 0.411100 ms CreateObjectMapping: 0.208600 ms MarkObjects: 2.616300 ms  DeleteObjects: 0.551900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011881 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.983 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.17 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 345.1 MB.
+System memory in use after: 344.8 MB.
+
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4344.
+Total: 10.437700 ms (FindLiveObjects: 0.887900 ms CreateObjectMapping: 0.580900 ms MarkObjects: 8.024300 ms  DeleteObjects: 0.942000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010780 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.965 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.24 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 345.1 MB.
+System memory in use after: 344.8 MB.
+
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4348.
+Total: 3.556100 ms (FindLiveObjects: 0.484800 ms CreateObjectMapping: 0.182600 ms MarkObjects: 2.467200 ms  DeleteObjects: 0.419600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011595 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.096 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 345.2 MB.
+System memory in use after: 344.9 MB.
+
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4352.
+Total: 9.123000 ms (FindLiveObjects: 1.434600 ms CreateObjectMapping: 0.791700 ms MarkObjects: 6.042200 ms  DeleteObjects: 0.851400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010844 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.081 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 345.2 MB.
+System memory in use after: 344.9 MB.
+
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4356.
+Total: 3.458300 ms (FindLiveObjects: 0.399900 ms CreateObjectMapping: 0.172300 ms MarkObjects: 2.422400 ms  DeleteObjects: 0.462400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011019 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.068 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.17 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 345.2 MB.
+System memory in use after: 344.9 MB.
+
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4360.
+Total: 14.388100 ms (FindLiveObjects: 1.586500 ms CreateObjectMapping: 0.945400 ms MarkObjects: 10.644200 ms  DeleteObjects: 1.207900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011475 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.062 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.40 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 345.2 MB.
+System memory in use after: 344.9 MB.
+
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4364.
+Total: 10.693100 ms (FindLiveObjects: 1.272400 ms CreateObjectMapping: 0.826500 ms MarkObjects: 7.646000 ms  DeleteObjects: 0.945200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010810 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.972 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.17 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 345.2 MB.
+System memory in use after: 344.9 MB.
+
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4368.
+Total: 4.310700 ms (FindLiveObjects: 0.609700 ms CreateObjectMapping: 0.252600 ms MarkObjects: 3.033500 ms  DeleteObjects: 0.413700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011406 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.979 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 345.2 MB.
+System memory in use after: 344.9 MB.
+
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4372.
+Total: 5.395500 ms (FindLiveObjects: 0.684300 ms CreateObjectMapping: 0.357300 ms MarkObjects: 3.767900 ms  DeleteObjects: 0.584500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011406 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.057 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.17 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 345.3 MB.
+System memory in use after: 345.0 MB.
+
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4376.
+Total: 5.939300 ms (FindLiveObjects: 0.440600 ms CreateObjectMapping: 0.200100 ms MarkObjects: 4.486000 ms  DeleteObjects: 0.811200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012267 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.079 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 345.3 MB.
+System memory in use after: 345.0 MB.
+
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4380.
+Total: 3.999800 ms (FindLiveObjects: 0.495300 ms CreateObjectMapping: 0.278400 ms MarkObjects: 2.718300 ms  DeleteObjects: 0.506600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010789 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.90 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.20 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.049 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.40 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 345.3 MB.
+System memory in use after: 345.0 MB.
+
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4384.
+Total: 4.251800 ms (FindLiveObjects: 0.569500 ms CreateObjectMapping: 0.170700 ms MarkObjects: 2.980900 ms  DeleteObjects: 0.528900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011155 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.055 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.17 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 345.3 MB.
+System memory in use after: 345.0 MB.
+
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4388.
+Total: 4.240800 ms (FindLiveObjects: 0.456100 ms CreateObjectMapping: 0.211000 ms MarkObjects: 3.094600 ms  DeleteObjects: 0.478000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011246 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 18 plugins.
 Preloading 2 native plugins for Editor in 0.14 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -126,477 +1274,121 @@ Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Lib
 (Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.092 seconds
+- Completed reload, in  1.947 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.20 ms, found 18 plugins.
+Refreshing native plugins compatible for Editor in 1.22 ms, found 18 plugins.
 Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 3757 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 344.8 MB.
-System memory in use after: 344.5 MB.
+Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 345.3 MB.
+System memory in use after: 345.0 MB.
 
-Unloading 150 unused Assets to reduce memory usage. Loaded Objects now: 4303.
-Total: 4.512100 ms (FindLiveObjects: 0.753500 ms CreateObjectMapping: 0.238800 ms MarkObjects: 3.048000 ms  DeleteObjects: 0.470200 ms)
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4392.
+Total: 4.532800 ms (FindLiveObjects: 0.548600 ms CreateObjectMapping: 0.251800 ms MarkObjects: 3.212600 ms  DeleteObjects: 0.518400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012200 seconds.
+Registered in 0.011584 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.959 seconds
+Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 1.16 ms, found 18 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
-
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.023 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.17 ms, found 18 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 3757 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 344.8 MB.
-System memory in use after: 344.5 MB.
-
-Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4307.
-Total: 3.474900 ms (FindLiveObjects: 0.461300 ms CreateObjectMapping: 0.204600 ms MarkObjects: 2.384300 ms  DeleteObjects: 0.423000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010925 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 18 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
-
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.086 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.56 ms, found 18 plugins.
-Preloading 2 native plugins for Editor in 0.17 ms.
-Unloading 3757 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 344.9 MB.
-System memory in use after: 344.6 MB.
-
-Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4311.
-Total: 3.618500 ms (FindLiveObjects: 0.440300 ms CreateObjectMapping: 0.226600 ms MarkObjects: 2.508400 ms  DeleteObjects: 0.441300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011453 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 18 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
-
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.087 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.15 ms, found 18 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 3757 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 344.9 MB.
-System memory in use after: 344.6 MB.
-
-Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4315.
-Total: 9.559400 ms (FindLiveObjects: 1.263100 ms CreateObjectMapping: 0.699200 ms MarkObjects: 6.646900 ms  DeleteObjects: 0.946600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 464.039627 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9fa88ebad955f287c3e69665b5df644') in 0.059932 seconds
-  Import took 0.076190 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.975911 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe35b38940c2c62cd4ace7a18c392df') in 0.036882 seconds
-  Import took 0.043116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.191194 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1772d03cbdd95fd488fc48344340564f') in 0.025328 seconds
-  Import took 0.040718 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.880220 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8d1d9dc08aa8534d1921045d468167') in 0.025306 seconds
-  Import took 0.031538 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.402734 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e5e1407800dd4f6e46e5ea4de424b9') in 0.027435 seconds
-  Import took 0.043112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.973807 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6f690b654d3232301a22b054a01b13') in 0.023324 seconds
-  Import took 0.039491 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.200923 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1486b0c8687a970ce596a1fecf63b79') in 0.025762 seconds
-  Import took 0.041952 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.611909 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdcc0edd98b016381ff65cd2952dec6e') in 0.025108 seconds
-  Import took 0.041745 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.996619 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cee64ccf73708eabe8edff15cfa2356') in 0.027981 seconds
-  Import took 0.044682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.977688 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd859de5582ace2cbf942f83fbfcb8735') in 0.028985 seconds
-  Import took 0.044735 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.003507 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8ea84ae5f909a0eb08ab6f040b3406') in 0.030425 seconds
-  Import took 0.047056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.627207 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18cedbbecc007d23fde6c08361397123') in 0.024342 seconds
-  Import took 0.040340 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.036263 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063b5b67cf442494552b311ef8f2a63a') in 0.027436 seconds
-  Import took 0.043274 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.704936 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef9e69059b7514602e2fca73fad1f4c') in 0.029408 seconds
-  Import took 0.037427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.831889 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e5ec52b7d2e8bcd2260d6cc7321816') in 0.027650 seconds
-  Import took 0.043693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.791036 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc852d8c0f429b9ec7bf948fe4b0be5') in 0.025642 seconds
-  Import took 0.031754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.428384 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6ec0641d4a027b246a9a07e87edecc') in 0.025847 seconds
-  Import took 0.032385 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.607668 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd3e6bde34a159fa9ed48e184feb1b6') in 0.025941 seconds
-  Import took 0.041962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.415999 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c6a2343963cce68e6889d51f5d90b3') in 0.029185 seconds
-  Import took 0.035632 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.990893 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32cd022c9afa1527f04f7e923621c85') in 0.030302 seconds
-  Import took 0.046456 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.632267 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ce3329ebd3a1c90af377ef2b8b51b9') in 0.025374 seconds
-  Import took 0.041405 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.791239 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f5737dd21c426192e7306ee211e8bb') in 0.026825 seconds
-  Import took 0.043374 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.672218 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f14af83bf3d39301cf09e864b079e2') in 0.025577 seconds
-  Import took 0.041877 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.398905 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f73289a6aad7018272875f64ce49b0') in 0.036902 seconds
-  Import took 0.053565 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.406412 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77512ea73068fe69c7b00dd0d7fa8954') in 0.026591 seconds
-  Import took 0.042794 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.279260 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f1323d091b46a01eac24ac6ed25456') in 0.024273 seconds
-  Import took 0.049722 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.478874 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8d1006a2d166dfc965fa9d63f8a4a3') in 0.030135 seconds
-  Import took 0.037845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.983356 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f7b8109ccde5d3666b34200a5ffadd') in 0.026364 seconds
-  Import took 0.042447 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.768726 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de5e19d065bb71b621adef77043ab39') in 0.026524 seconds
-  Import took 0.042985 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.394172 seconds.
-  path: Assets/Prefabs/Pistol.prefab
-  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87334b690fe64af279d7f2683abd4ac6') in 0.028091 seconds
-  Import took 0.044450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 224.899358 seconds.
-  path: Assets/Scripts/AmmoCounter.cs
-  artifactKey: Guid(79788d0c46568474bbb3a5dc26a25874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/AmmoCounter.cs using Guid(79788d0c46568474bbb3a5dc26a25874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85db6782734e7641c33e02280fd7bb5') in 0.015315 seconds
-  Import took 0.022364 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.848557 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 18 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
-
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.642 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.17 ms, found 18 plugins.
 Preloading 2 native plugins for Editor in 0.12 ms.
 Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 345.1 MB.
-System memory in use after: 344.8 MB.
+System memory in use before: 345.3 MB.
+System memory in use after: 345.0 MB.
 
-Unloading 150 unused Assets to reduce memory usage. Loaded Objects now: 4321.
-Total: 3.771300 ms (FindLiveObjects: 0.613100 ms CreateObjectMapping: 0.226000 ms MarkObjects: 2.501300 ms  DeleteObjects: 0.429900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.239186 seconds.
-  path: Assets/Scripts/Gun.cs
-  artifactKey: Guid(dad2923b1955c8d459a990a41b60ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Gun.cs using Guid(dad2923b1955c8d459a990a41b60ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62e200e7c03187a813379c22f62b229') in 0.009451 seconds
-  Import took 0.018676 seconds .
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4396.
+Total: 3.557700 ms (FindLiveObjects: 0.374900 ms CreateObjectMapping: 0.172900 ms MarkObjects: 2.584800 ms  DeleteObjects: 0.424100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010827 seconds.
+Registered in 0.010855 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.965 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.17 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 345.4 MB.
+System memory in use after: 345.0 MB.
+
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4400.
+Total: 3.863200 ms (FindLiveObjects: 0.517100 ms CreateObjectMapping: 0.212000 ms MarkObjects: 2.602500 ms  DeleteObjects: 0.530100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011489 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.19 ms, found 18 plugins.
@@ -632,32 +1424,140 @@ Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Lib
 (Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.984 seconds
+- Completed reload, in  1.977 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 345.4 MB.
+System memory in use after: 345.1 MB.
+
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4404.
+Total: 3.567800 ms (FindLiveObjects: 0.406900 ms CreateObjectMapping: 0.181100 ms MarkObjects: 2.562100 ms  DeleteObjects: 0.416000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011209 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.074 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 1.16 ms, found 18 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
+Preloading 2 native plugins for Editor in 0.12 ms.
 Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 345.1 MB.
-System memory in use after: 344.8 MB.
+System memory in use before: 345.4 MB.
+System memory in use after: 345.1 MB.
 
-Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4325.
-Total: 3.862500 ms (FindLiveObjects: 0.550300 ms CreateObjectMapping: 0.225900 ms MarkObjects: 2.541500 ms  DeleteObjects: 0.544000 ms)
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4408.
+Total: 4.298700 ms (FindLiveObjects: 0.549400 ms CreateObjectMapping: 0.213700 ms MarkObjects: 3.053800 ms  DeleteObjects: 0.480600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 109.280381 seconds.
-  path: Assets/Scripts/Gun.cs
-  artifactKey: Guid(dad2923b1955c8d459a990a41b60ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Gun.cs using Guid(dad2923b1955c8d459a990a41b60ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c419616741f6dfb51b0ce03be78708') in 0.005870 seconds
-  Import took 0.018479 seconds .
+  Time since last request: 954.738398 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8919bf25eb4bde5d217d40272d70486d') in 0.090326 seconds
+  Import took 0.097761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.165457 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f377eb0dbd801afe213a21b3b7ff5f4') in 0.027902 seconds
+  Import took 0.044003 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011014 seconds.
+Registered in 0.010832 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.30 ms, found 18 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.123 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 345.4 MB.
+System memory in use after: 345.1 MB.
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 4413.
+Total: 4.434600 ms (FindLiveObjects: 0.616400 ms CreateObjectMapping: 0.483000 ms MarkObjects: 2.903700 ms  DeleteObjects: 0.430400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010812 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 18 plugins.
 Preloading 2 native plugins for Editor in 0.13 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -690,21 +1590,161 @@ Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Lib
 (Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.038 seconds
+- Completed reload, in  2.158 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.32 ms, found 18 plugins.
+Refreshing native plugins compatible for Editor in 1.25 ms, found 18 plugins.
 Preloading 2 native plugins for Editor in 0.14 ms.
 Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 345.1 MB.
-System memory in use after: 344.8 MB.
+System memory in use before: 345.4 MB.
+System memory in use after: 345.1 MB.
 
-Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4329.
-Total: 3.528500 ms (FindLiveObjects: 0.427800 ms CreateObjectMapping: 0.188000 ms MarkObjects: 2.474500 ms  DeleteObjects: 0.436800 ms)
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4417.
+Total: 3.679800 ms (FindLiveObjects: 0.452800 ms CreateObjectMapping: 0.199900 ms MarkObjects: 2.579600 ms  DeleteObjects: 0.446100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.423234 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186933d84be8cc79121357d177bba80a') in 0.124490 seconds
+  Import took 0.132106 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.035180 seconds.
+Registered in 0.011027 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.039 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 345.5 MB.
+System memory in use after: 345.2 MB.
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 4422.
+Total: 5.311000 ms (FindLiveObjects: 0.710800 ms CreateObjectMapping: 0.240400 ms MarkObjects: 3.572500 ms  DeleteObjects: 0.786000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.970066 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00578dabc483fc4802e43158b509c17c') in 0.077386 seconds
+  Import took 0.093100 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010644 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.023 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 18 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 345.5 MB.
+System memory in use after: 345.2 MB.
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 4427.
+Total: 3.882600 ms (FindLiveObjects: 0.498500 ms CreateObjectMapping: 0.195900 ms MarkObjects: 2.750400 ms  DeleteObjects: 0.436800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 154.304836 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f044ce9bb0df6245de67437dcc371cab') in 0.088720 seconds
+  Import took 0.104612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.544874 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd0c578d3e2324bb395ec8a43859bc7') in 0.026119 seconds
+  Import took 0.041988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.819464 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'effa905fd3d8a79dc5c0bc69f341b52c') in 0.028758 seconds
+  Import took 0.035461 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013195 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.16 ms, found 18 plugins.
@@ -740,297 +1780,359 @@ Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Lib
 (Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.071 seconds
+- Completed reload, in  2.055 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 1.22 ms, found 18 plugins.
 Preloading 2 native plugins for Editor in 0.12 ms.
 Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 345.1 MB.
-System memory in use after: 344.8 MB.
+System memory in use before: 345.5 MB.
+System memory in use after: 345.2 MB.
 
-Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4333.
-Total: 3.643500 ms (FindLiveObjects: 0.477800 ms CreateObjectMapping: 0.176200 ms MarkObjects: 2.579000 ms  DeleteObjects: 0.409300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011300 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 18 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
-
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.974 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.15 ms, found 18 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 345.1 MB.
-System memory in use after: 344.8 MB.
-
-Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4337.
-Total: 3.579000 ms (FindLiveObjects: 0.424000 ms CreateObjectMapping: 0.188800 ms MarkObjects: 2.512900 ms  DeleteObjects: 0.451900 ms)
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 4432.
+Total: 6.425200 ms (FindLiveObjects: 0.892400 ms CreateObjectMapping: 0.319400 ms MarkObjects: 4.041400 ms  DeleteObjects: 1.170300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 343.957695 seconds.
+  Time since last request: 117.219328 seconds.
   path: Assets/Prefabs/Pistol.prefab
   artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf9b70908e837c6b97fcd264e40e49b') in 0.102409 seconds
-  Import took 0.109768 seconds .
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b3ccdf0599717220df1f98bf7c1a20') in 0.091229 seconds
+  Import took 0.098770 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.021937 seconds.
+  Time since last request: 5.844563 seconds.
   path: Assets/Prefabs/Pistol.prefab
   artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8d4d4e80f0f1927366f85244b7e83e') in 0.038409 seconds
-  Import took 0.045312 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.051890 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.15 ms, found 18 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
-
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.162 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.16 ms, found 18 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 345.2 MB.
-System memory in use after: 344.9 MB.
-
-Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 4342.
-Total: 4.327500 ms (FindLiveObjects: 0.770600 ms CreateObjectMapping: 0.251000 ms MarkObjects: 2.847300 ms  DeleteObjects: 0.456700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010953 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.14 ms, found 18 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
-
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.971 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.26 ms, found 18 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 345.2 MB.
-System memory in use after: 344.9 MB.
-
-Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4346.
-Total: 3.934400 ms (FindLiveObjects: 0.559600 ms CreateObjectMapping: 0.211400 ms MarkObjects: 2.654600 ms  DeleteObjects: 0.507800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.047360 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 18 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
-
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.174 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.20 ms, found 18 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 345.2 MB.
-System memory in use after: 344.9 MB.
-
-Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 4350.
-Total: 3.615700 ms (FindLiveObjects: 0.445100 ms CreateObjectMapping: 0.202900 ms MarkObjects: 2.539300 ms  DeleteObjects: 0.427100 ms)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704d1135827735a8616b2b888978d310') in 0.033547 seconds
+  Import took 0.049298 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1670.697429 seconds.
-  path: Assets/Scripts/AmmoCounter.cs
-  artifactKey: Guid(79788d0c46568474bbb3a5dc26a25874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/AmmoCounter.cs using Guid(79788d0c46568474bbb3a5dc26a25874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae833a7f1f7a5da15cfbb9e0e9caca8e') in 0.018878 seconds
-  Import took 0.028103 seconds .
+  Time since last request: 7.442323 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0b723449f7a910e4657515b66531de') in 0.032645 seconds
+  Import took 0.039304 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001400 seconds.
-  path: Assets/Scripts/AmmoCounter.cs
-  artifactKey: Guid(79788d0c46568474bbb3a5dc26a25874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/AmmoCounter.cs using Guid(79788d0c46568474bbb3a5dc26a25874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae833a7f1f7a5da15cfbb9e0e9caca8e') in 0.002562 seconds
-  Import took 0.010163 seconds .
+  Time since last request: 5.611594 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5add9009005243e80a2e0a4a653f88c') in 0.034894 seconds
+  Import took 0.058979 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.044632 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 18 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+Received Import Request.
+  Time since last request: 2.787753 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d27dc88e5bdf5355fd7b9a14adbb168') in 0.031748 seconds
+  Import took 0.037995 seconds .
 
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+========================================================================
+Received Import Request.
+  Time since last request: 3.183529 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fae45f6138cdc89be4fc35a344c69b2') in 0.038989 seconds
+  Import took 0.046523 seconds .
 
-Added DLL directory C:\Users\velden.bergonia\Documents\GitHub\VB-VRITM\Library\PackageCache\com.microsoft.mixedreality.input@459fa379a429-1623884652331\Plugins\Windows\x64 to the user search path.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Microsoft.MixedReality.Input.Init:.cctor () (at Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs:88)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+========================================================================
+Received Import Request.
+  Time since last request: 4.218847 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25027befe6aeefef52e279f3b241737') in 0.035018 seconds
+  Import took 0.051942 seconds .
 
-(Filename: Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Editor/Microsoft.MixedReality.Input.Init.cs Line: 88)
+========================================================================
+Received Import Request.
+  Time since last request: 4.196236 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab74e1a8fff0fd96bb091a4eb10caa4') in 0.033309 seconds
+  Import took 0.048721 seconds .
 
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+========================================================================
+Received Import Request.
+  Time since last request: 4.610796 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbd305b28c142dd1b367d9b04996002') in 0.034888 seconds
+  Import took 0.050602 seconds .
 
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@1b37a4916cf5-1623884652667/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+========================================================================
+Received Import Request.
+  Time since last request: 4.989137 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae9a740cc3ea9029e39d40c3baef72d') in 0.032872 seconds
+  Import took 0.042021 seconds .
 
-Mono: successfully reloaded assembly
-- Completed reload, in  2.077 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.17 ms, found 18 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 3757 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 345.2 MB.
-System memory in use after: 344.9 MB.
+========================================================================
+Received Import Request.
+  Time since last request: 1.969971 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea2e78bb5fa865e5202d21b14130e2d') in 0.039864 seconds
+  Import took 0.046249 seconds .
 
-Unloading 148 unused Assets to reduce memory usage. Loaded Objects now: 4353.
-Total: 4.841600 ms (FindLiveObjects: 0.623900 ms CreateObjectMapping: 0.231300 ms MarkObjects: 3.471000 ms  DeleteObjects: 0.513300 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 3.784973 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a507f15369c1d2a4a4a24b69d9f65b96') in 0.029379 seconds
+  Import took 0.045278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.246212 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093e066b1a6183fe13b5bb994aaacd0a') in 0.029818 seconds
+  Import took 0.045805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.991128 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6ec4847104c6503e1b61fb06e69d00') in 0.040683 seconds
+  Import took 0.046695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.361530 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7febb89b4e8ef411086841cffaf45541') in 0.034535 seconds
+  Import took 0.050742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.774310 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4d8ca45873eb9b795e6322f2ddc7a0') in 0.031238 seconds
+  Import took 0.038245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.406558 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11fa34f35e8b66bea62f0dbfb86bbf0') in 0.028651 seconds
+  Import took 0.034414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.582369 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96facff8dffd3934ff931deefd2ca30') in 0.036217 seconds
+  Import took 0.051755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.070521 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866fad2920728cbc5af0779526fdabc7') in 0.031278 seconds
+  Import took 0.051515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.010885 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27dd6222abf7ee9d18078633ca595bdc') in 0.043816 seconds
+  Import took 0.050996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.784384 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850f99a5fcc561e3352996410238f77e') in 0.030725 seconds
+  Import took 0.046907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.235404 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a741c0bdf375203d5d70f0caed779de') in 0.032287 seconds
+  Import took 0.048208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.018025 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879fe2e7b63312175541e4780d9b2ffd') in 0.032572 seconds
+  Import took 0.040045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.409268 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e5bca654f6962a2c4882de8847ee66') in 0.031471 seconds
+  Import took 0.048273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.593827 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68fcd9eabaf333b3e6161378c72e9679') in 0.030155 seconds
+  Import took 0.046523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.004998 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e490c78d272ebdc95a4a4680cabe4a') in 0.030414 seconds
+  Import took 0.046114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.984537 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657d055b8286ee834c71d5119a97cbff') in 0.027372 seconds
+  Import took 0.043492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.994063 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba37d9df868faee68b7fc71331df66f6') in 0.029182 seconds
+  Import took 0.045279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.035457 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66efdfd39e15e667bc787462f3f46ed4') in 0.029238 seconds
+  Import took 0.046072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.563691 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea04b643114e40b34c52730d8f9f7bb') in 0.033455 seconds
+  Import took 0.039559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.201505 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453efb6a671351f8fc736af3129da4a5') in 0.031270 seconds
+  Import took 0.038120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.972596 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a7d4551033ecb6922aa85e04bda0e9') in 0.033885 seconds
+  Import took 0.041495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.178704 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf848ed108a358bb7ec0652aeb64b07e') in 0.028184 seconds
+  Import took 0.044867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.779461 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c873c320686d8118f0cec085f714748') in 0.039429 seconds
+  Import took 0.047460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.584349 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbfe2fcd30aa71b23acbf3bec75864c7') in 0.032792 seconds
+  Import took 0.039536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.603725 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175d4af3e853538e021e9b4ed8f5655a') in 0.029276 seconds
+  Import took 0.046033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.366698 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752f89585f38c62ee40bfdaaf9da4456') in 0.040409 seconds
+  Import took 0.047612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.435064 seconds.
+  path: Assets/Prefabs/Pistol.prefab
+  artifactKey: Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pistol.prefab using Guid(e4f16e6165f069b4b8a3366b3617deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b08c0943bf4200744a734488354a8c') in 0.029205 seconds
+  Import took 0.035156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.863714 seconds.
+  path: Assets/Textures/Grass.terrainlayer
+  artifactKey: Guid(ef8c6f677186f8e4d8c2b4605306ab86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Grass.terrainlayer using Guid(ef8c6f677186f8e4d8c2b4605306ab86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532558babb6166d5fb0b0f986cab3284') in 0.052694 seconds
+  Import took 0.058853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Textures/StoneBrick.terrainlayer
+  artifactKey: Guid(91f216ecabbb9aa4ab5f46cb8460bac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/StoneBrick.terrainlayer using Guid(91f216ecabbb9aa4ab5f46cb8460bac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15a3cc5ede05e28259e64fcf5b0cbfd') in 0.033121 seconds
+  Import took 0.038649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.064523 seconds.
+  path: Assets/Materials/blueFuRtuRISTIC.mat
+  artifactKey: Guid(14f90a6aee48b9b4a878bd7fab200393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/blueFuRtuRISTIC.mat using Guid(14f90a6aee48b9b4a878bd7fab200393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fab09eba27641b98a5be9004724e181') in 0.042621 seconds
+  Import took 0.048537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 296.335579 seconds.
+  path: Assets/Materials/blueFuRtuRISTIC.mat
+  artifactKey: Guid(14f90a6aee48b9b4a878bd7fab200393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/blueFuRtuRISTIC.mat using Guid(14f90a6aee48b9b4a878bd7fab200393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06dd216dc25b0a357ae16ab653745ea0') in 0.023918 seconds
+  Import took 0.032130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Materials/Grey.mat
+  artifactKey: Guid(8baee42dfb29f0446974177230ff1983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Grey.mat using Guid(8baee42dfb29f0446974177230ff1983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95071caa9d1a7d2b69c6e8a07fb5e4d5') in 0.011077 seconds
+  Import took 0.017189 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
