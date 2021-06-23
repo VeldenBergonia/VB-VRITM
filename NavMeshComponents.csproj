@@ -287,7 +287,7 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Microsoft.MixedReality.Input.DotNet">
- <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1623884652331/Plugins/Windows/Microsoft.MixedReality.Input.DotNet.dll</HintPath>
+ <HintPath>C:/Users/velden.bergonia/Documents/GitHub/VB-VRITM/Library/PackageCache/com.microsoft.mixedreality.input@459fa379a429-1624405066782/Plugins/Windows/Microsoft.MixedReality.Input.DotNet.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
