@@ -13,7 +13,7 @@ public class DNRotate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.RotateAround(Vector3.down, Vector3.right, 10f * Time.deltaTime);
+        transform.RotateAround(Vector3.down, Vector3.right, 1f * Time.deltaTime);
         transform.LookAt(Vector3.zero);
     }
 }

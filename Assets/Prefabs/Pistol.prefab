@@ -629,6 +629,7 @@ GameObject:
   - component: {fileID: 8274174070578440099}
   - component: {fileID: 6140431813254026089}
   - component: {fileID: 4825228299852433423}
+  - component: {fileID: -7714670292811077044}
   m_Layer: 0
   m_Name: Pistol
   m_TagString: Untagged
@@ -725,6 +726,25 @@ MonoBehaviour:
   reloadTime: 1.5
   fpsCam: {fileID: 0}
   muzzleFlash: {fileID: 7386469172332259090}
+--- !u!114 &-7714670292811077044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5636200247214224060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef91a627a11b4a22b41dd9109dfd8703, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyOnSourceLost: 1
+  useSourcePoseData: 1
+  poseAction:
+    id: 0
+    description: None
+    axisConstraint: 0
+  handedness: 1
 --- !u!1 &5672186386772652564
 GameObject:
   m_ObjectHideFlags: 0
