@@ -36,7 +36,7 @@ public class Gun : MonoBehaviour
             return;
         }
           
-        if (Input.GetButton("AXIS_10") && Time.time >= nextTimeToFire)
+        if (Input.GetButton("Fire1") && Time.time >= nextTimeToFire)
         {
             nextTimeToFire = Time.time + 1f / fireRate;
             Shoot();
