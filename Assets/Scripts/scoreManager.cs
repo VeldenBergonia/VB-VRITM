@@ -7,7 +7,7 @@ public class scoreManager : MonoBehaviour
 {
     public static int points = 0;
     public static int playerHealthScore = 3;
-    public TextMeshProUGUI scoreText;
+    public TMP_Text scoreText;
     public GameObject gameOverText;
 
     void Awake()
@@ -24,6 +24,6 @@ public class scoreManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(points);
+        scoreText.text = points.ToString();
     }
 }
