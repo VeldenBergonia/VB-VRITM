@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 4d9b117079ea9214483a1dd260fcffa4
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: main/glTF Scene WMRLeftcontroller
+    100002: main/glTF Scene WMRLeftcontroller/glTF Node 0
+    400000: main/glTF Scene WMRLeftcontroller/Transform
+    400002: main/glTF Scene WMRLeftcontroller/glTF Node 0/Transform
+    2300000: main/glTF Scene WMRLeftcontroller/glTF Node 0/MeshRenderer
+    2800000: Texture_0
+    3300000: main/glTF Scene WMRLeftcontroller/glTF Node 0/MeshFilter
+    4300000: Mesh_0
+    11400000: glTF data
+    100100000: main
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 75911c45f303c8f45927f5efeaa50cc4, type: 3}
