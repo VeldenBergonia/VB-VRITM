@@ -36,11 +36,17 @@ public class Gun : MonoBehaviour
             return;
         }
           
-        if (Input.GetButton("Fire1") && Time.time >= nextTimeToFire)
-        {
-            nextTimeToFire = Time.time + 1f / fireRate;
-            Shoot();
-        }
+        //if (Input.GetButton("triggerButton") && Time.time >= nextTimeToFire)
+        //{
+        //    nextTimeToFire = Time.time + 1f / fireRate;
+        //    Shoot();
+        //}
+    }
+
+    public void Trigger()
+    {
+        nextTimeToFire = Time.time + 1f / fireRate;
+        Shoot();
     }
 
     IEnumerator Reload ()
@@ -54,7 +60,7 @@ public class Gun : MonoBehaviour
         isReloading = false;
     }
 
-    void Shoot ()
+    public void Shoot ()
     {
         muzzleFlash.Play();
 
