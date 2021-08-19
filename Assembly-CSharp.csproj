@@ -54,16 +54,71 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\LaserV2.cs" />
+    <Compile Include="Assets\Wave One\Demo\Scripts\DisplayStats.cs" />
     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
+    <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.6.0\Demos - Input\Scenes\PointerResult\SpawnOnPointerEvent.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\Spawners\SpawnerEnum.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\EndPoints\EndPoint.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\Management\WaveManager.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\GameEvents\UnityEvents\UnityIntEvent.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\Spawners\PerWaveCustom.cs" />
     <Compile Include="Assets\Scripts\Gun.cs" />
+    <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.6.0\Demos - Input\Scenes\DisablePointers\DisablePointersExample.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\Spawners\PerWaveRandomPool.cs" />
+    <Compile Include="Assets\Wave One\Demo\Scripts\DestroyWhenCollisionWithLayer.cs" />
+    <Compile Include="Assets\Wave One\Demo\Scripts\ManagerSpawnButton.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\Interfaces\IFormation.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\GameEvents\ScriptableEvents\BoolEvent.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\Interfaces\ISpawner.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\GameEvents\UnityEvents\UnityBoolEvent.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\Spawners\SpawnerPickers\ReverseOrderSpawner.cs" />
     <Compile Include="Assets\Scripts\MouseMovement.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\GameEvents\Listeners\VoidEventListener.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\Formations\SquareGroupFormation.cs" />
+    <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.6.0\Demos - Input\Scenes\InputActions\Rotator.cs" />
     <Compile Include="Assets\Scripts\DNRotate.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\Interfaces\ISpawnerPicker.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\Spawners\SpawnerPickers\SpawnerPickerEnum.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\StartPoints\ListOfTransforms.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\StartPoints\StartPointEnum.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\ChangeWorld.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\Formations\FormationEnum.cs" />
+    <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.6.0\Demos - Input\Scenes\InputData\InputDataExampleGizmo.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\StartPoints\StartPointPickers\StartPointPickerEnum.cs" />
+    <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.6.0\Demos - Input\Scenes\InputData\InputDataExample.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\GameEvents\Void.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\Management\WaveConfigurator.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\GameEvents\UnityEvents\UnityVoidEvent.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\GameEvents\Listeners\IntEventListener.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\StartPoints\Shapes\Sphere.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\EndPoints\SetAgentDestination.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\GameEvents\ScriptableEvents\IntEvent.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\GameEvents\ScriptableEvents\VoidEvent.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\StartPoints\StartPointPickers\ReverseOrderStartPoint.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\StartPoints\ListOfBoxes.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\StartPoints\ListOfSpheres.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\StartPoints\StartPointPickers\RandomGuaranteedStartPoint.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\Spawners\SpawnerPickers\InOrderSpawner.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\Interfaces\IStartPoint.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\GameEvents\Listeners\IGameEventListener.cs" />
     <Compile Include="Assets\Scripts\scoreManager.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\Interfaces\IStartPointPicker.cs" />
+    <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.6.0\Demos - Input\Scenes\PrimaryPointer\PrimaryPointerHandlerExample.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\GameEvents\ScriptableEvents\BaseGameEvent.cs" />
+    <Compile Include="Assets\mappingtool\DisplayInputResult.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\StartPoints\StartPointPickers\RandomStartPoint.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\StartPoints\StartPointPickers\InOrderStartPoint.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\EndPoints\EndPointEnum.cs" />
     <Compile Include="Assets\Scripts\Laser.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\StartPoints\Shapes\Box.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\GameEvents\Listeners\BaseGameEventListener.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\Spawners\TimedSpawner.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\Spawners\SpawnerPickers\RandomGuaranteedSpawner.cs" />
+    <Compile Include="Assets\Wave One\Assets\Scripts\GameEvents\Listeners\BoolEventListener.cs" />
     <Compile Include="Assets\Scripts\AmmoCount.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
@@ -779,9 +834,6 @@
     <Reference Include="Microsoft.MixedReality.Toolkit.Extensions.Tracking">
       <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Extensions.Tracking.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Tests.Utilities">
-      <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Tests.Utilities.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.XR.ARSubsystems.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll</HintPath>
     </Reference>
@@ -850,9 +902,6 @@
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor">
       <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Tools.Runtime">
-      <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Tools.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Subsystem.Registration">
       <HintPath>Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
@@ -949,9 +998,6 @@
     </Reference>
     <Reference Include="Unity.XR.ARFoundation">
       <HintPath>Library\ScriptAssemblies\Unity.XR.ARFoundation.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Tools">
-      <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Tools.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors">
       <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll</HintPath>
